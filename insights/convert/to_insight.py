@@ -1,4 +1,4 @@
-import json, os
+import json, os, time
 import http.client
 from openai import OpenAI
 from pymongo import MongoClient
@@ -29,7 +29,7 @@ def ensure_ttl_index(collection, field_name, expire_seconds):
         print("TTL index already exists.")
 
 # Ensure TTL index on the 'createdAt' field
-ensure_ttl_index(job_status_collection, "createdAt", 30)
+ensure_ttl_index(job_status_collection, "createdAt", 600)
 
 client = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
 
@@ -90,20 +90,21 @@ def summarize_reviews(place_details):
     # Extract the summary from the response
     summary = response.choices[0].message.content.strip()
 
-    with open('data.json', 'w') as json_file:
+    with open('data3.json', 'w') as json_file:
         json.dump(summary, json_file, indent=4)
     
     # Prepare the structured summary
-    structured_summary = {
-        "id": place_details.get("id"),
-        "placeName": place_details.get("placeName"),
-        "address": place_details.get("address"),
-        "rating": place_details.get("rating"),
-        "userRatingCount": place_details.get("userRatingCount"),
-        "summary": summary
-    }
+    # structured_summary = {
+    #     "id": place_details.get("id"),
+    #     "placeName": place_details.get("placeName"),
+    #     "address": place_details.get("address"),
+    #     "rating": place_details.get("rating"),
+    #     "userRatingCount": place_details.get("userRatingCount"),
+    #     "summary": summary
+    # }
     
-    return structured_summary
+
+    return summary
 
 def start(body, ch):
     data = json.loads(body)
@@ -145,15 +146,23 @@ def start(body, ch):
     }
 
     conn = http.client.HTTPConnection(url)
-
-    try:
-        conn.request("POST", endpoint, payload, headers)
-        response = conn.getresponse()
-        if response.status != 200:
-            raise Exception(f"HTTP error: {response.status} {response.reason}")
-        response_data = response.read().decode()
-        print(f"Response: {response_data}")
-    except Exception as e:
-        print(f"Request failed: {e}")
-    finally:
-        conn.close()
+    
+    max_retries = 5
+    retry_interval = 1  # Start with 1 second
+    
+    for attempt in range(max_retries):
+        try:
+            conn.request("POST", endpoint, payload, headers)
+            response = conn.getresponse()
+            if response.status != 200:
+                raise Exception(f"HTTP error: {response.status} {response.reason}")
+            response_data = response.read().decode()
+            print(f"Response: {response_data}")
+            if response.status == 200:
+                break
+        except Exception as e:
+            print(f"Request failed: {e}. Attempt {attempt + 1} of {max_retries}.")
+            time.sleep(retry_interval)
+            retry_interval *= 2  # Exponential backoff
+        finally:
+            conn.close()
