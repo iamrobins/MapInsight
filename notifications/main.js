@@ -8,11 +8,11 @@ dotenv.config({
 });
 
 const app = express();
-const server = http.createServer(app); // Create an HTTP server that Express will use
+const server = http.createServer(app);
 
 const clients = new Map(); // To keep track of WebSocket clients
 
-app.use(express.json());
+app.use(express.json({ limit: "50mb" }));
 
 app.get("/", (req, res) => {
   res.send("Notification service using WebSockets and Express");
@@ -47,11 +47,14 @@ wss.on("connection", (ws) => {
   });
 });
 
-console.log("WebSocket server is running on ws://localhost:8080");
+console.log(
+  `WebSocket server is running on ws://localhost:${process.env.PORT || 8001}`
+);
 
 // Express endpoint to update status
 app.post("/update-status", (req, res) => {
   const { jobId, status } = req.body;
+  console.log(req.body);
   console.log(`Received update for jobId: ${jobId} with status: ${status}`);
 
   const client = clients.get(String(jobId));
@@ -72,7 +75,7 @@ app.post("/update-status", (req, res) => {
 });
 
 // Start the server
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 8001;
 server.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
