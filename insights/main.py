@@ -3,10 +3,10 @@ import sys, os
 import pika
 from dotenv import load_dotenv
 
-from convert import to_insight
-
 ENV_FILE = '.env.dev' if os.getenv('ENVIRONMENT') == 'development' else '.env'
 load_dotenv(dotenv_path=ENV_FILE)
+
+from convert import to_insight
 
 def main():
     params = pika.URLParameters(os.getenv('RABBIT_MQ'))
