@@ -9,7 +9,7 @@ dotenv.config({
 
 const errorHandler = require("./middlewares/errorMiddleware");
 const logger = require("./utils/logger");
-const sampleData = require("./mock/sample-data2");
+const sampleData = require("./mock/sample-data");
 const app = express();
 
 const mongoClient = new MongoClient(process.env.MONGO_URI);
@@ -69,7 +69,7 @@ async function connectRabbitMQ() {
 connectRabbitMQ();
 
 const extractPlaces = (places) =>
-  places.data.places.map((d) => ({
+  places.map((d) => ({
     id: d.id,
     placeName: d.displayName.text,
     address: d.formattedAddress,
@@ -97,8 +97,9 @@ app.get("/search", async (req, res, next) => {
     if (!req.query.text)
       throw new Error("Please pass query string ?text=placename");
 
-    const jobId = 1;
-    const placesDev = extractPlaces(sampleData);
+    const jobId = uuidv4();
+    const places = sampleData["places"];
+    const placesDev = extractPlaces(places);
 
     logger.info("JobId generated and received places data");
     channel.sendToQueue(
@@ -132,8 +133,7 @@ app.get("/search", async (req, res, next) => {
 
       logger.info("JobId generated and received places data");
       const data = await response.json();
-
-      const places = extractPlaces(data);
+      const places = extractPlaces(data["places"]);
 
       channel.sendToQueue(
         "insight",
@@ -153,7 +153,7 @@ app.get("/summaries", async (req, res, next) => {
       throw new Error("Please pass query string ?jobId=jobId");
     }
 
-    const jobId = Number(req.query.jobId); // Convert jobId to number if necessary
+    const jobId = req.query.jobId; // Convert jobId to number if necessary
     const job = await jobStatusCollection.findOne({ jobId });
 
     if (!job) {

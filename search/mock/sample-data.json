@@ -1,0 +1,1189 @@
+{
+    "places": [
+    {
+        "id": "ChIJ2yS7dMwEdkgRFKhwVFl6onA",
+        "internationalPhoneNumber": "+44 20 3141 8810",
+        "formattedAddress": "11 Henrietta St, London WC2E 8PY, UK",
+        "location": {
+        "latitude": 51.5109821,
+        "longitude": -0.1235514
+        },
+        "rating": 4.5,
+        "googleMapsUri": "https://maps.google.com/?cid=8116184002562402324",
+        "websiteUri": "https://sticksnsushi.com/en/restaurants/london/covent-garden",
+        "businessStatus": "OPERATIONAL",
+        "userRatingCount": 3451,
+        "displayName": {
+        "text": "Sticks'n'Sushi Covent Garden",
+        "languageCode": "en"
+        },
+        "reviews": [
+        {
+            "name": "places/ChIJ2yS7dMwEdkgRFKhwVFl6onA/reviews/ChdDSUhNMG9nS0VJQ0FnSUNiODVtajZnRRAB",
+            "relativePublishTimeDescription": "a week ago",
+            "rating": 3,
+            "text": {
+            "text": "I'm a big fan of Sticks & Sushi and have been to several of their locations, all of which have received 5-star reviews from me. However, the Covent Garden branch seems to consistently underperform compared to the others.\n\nThe food itself is still very good. The sushi platter we ordered was excellent - fresh, flavorful, and beautifully presented. The quality of the ingredients and preparation is on par with what I've experienced at their other restaurants.\n\nHowever, the service is really where this location falls short. The server seemed more focused on socializing with their coworkers than attending to our table. It took a very long time to get our order taken, get refills, and even get the bill. They just didn't seem engaged or interested in providing a good customer experience.\n\nWhile the pricing is consistent across Sticks & Sushi locations, the poor service here just doesn't live up to the standard I expect from this restaurant group. The food is still great, but the lack of attentive service drags down the overall experience.\n\nOverall, I'd rate this particular Sticks & Sushi location a 3 out of 5. The food is still top-notch, but the service issues are hard to overlook. I'll continue visiting their other London locations, but I'd be hesitant to come back to this Covent Garden branch unless I hear the service has improved.",
+            "languageCode": "en"
+            },
+            "originalText": {
+            "text": "I'm a big fan of Sticks & Sushi and have been to several of their locations, all of which have received 5-star reviews from me. However, the Covent Garden branch seems to consistently underperform compared to the others.\n\nThe food itself is still very good. The sushi platter we ordered was excellent - fresh, flavorful, and beautifully presented. The quality of the ingredients and preparation is on par with what I've experienced at their other restaurants.\n\nHowever, the service is really where this location falls short. The server seemed more focused on socializing with their coworkers than attending to our table. It took a very long time to get our order taken, get refills, and even get the bill. They just didn't seem engaged or interested in providing a good customer experience.\n\nWhile the pricing is consistent across Sticks & Sushi locations, the poor service here just doesn't live up to the standard I expect from this restaurant group. The food is still great, but the lack of attentive service drags down the overall experience.\n\nOverall, I'd rate this particular Sticks & Sushi location a 3 out of 5. The food is still top-notch, but the service issues are hard to overlook. I'll continue visiting their other London locations, but I'd be hesitant to come back to this Covent Garden branch unless I hear the service has improved.",
+            "languageCode": "en"
+            },
+            "authorAttribution": {
+            "displayName": "Mohamed",
+            "uri": "https://www.google.com/maps/contrib/101622596886099312494/reviews",
+            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWdTcOaL1-9dfYqGwp1NcZOk2MaIl7TMBXBvUlTqWdAgZAVIY5e=s128-c0x00000000-cc-rp-mo-ba4"
+            },
+            "publishTime": "2024-07-29T20:44:17Z"
+        },
+        {
+            "name": "places/ChIJ2yS7dMwEdkgRFKhwVFl6onA/reviews/ChdDSUhNMG9nS0VJQ0FnSUNib1lpNHhnRRAB",
+            "relativePublishTimeDescription": "a week ago",
+            "rating": 4,
+            "text": {
+            "text": "Delicious food, the sushi and tartar was all nicely prepared and full of flavour but the biggest winner was the sticks. The duck one was super tender and the other sticks we tried were so tasty, next time I'll go more for the sticks. It is quite expensive however and the desserts aren't worth trying and were average",
+            "languageCode": "en"
+            },
+            "originalText": {
+            "text": "Delicious food, the sushi and tartar was all nicely prepared and full of flavour but the biggest winner was the sticks. The duck one was super tender and the other sticks we tried were so tasty, next time I'll go more for the sticks. It is quite expensive however and the desserts aren't worth trying and were average",
+            "languageCode": "en"
+            },
+            "authorAttribution": {
+            "displayName": "Brad Hardman",
+            "uri": "https://www.google.com/maps/contrib/117100816018388115781/reviews",
+            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWXCQRCd_Bh104dJtSLGD5O6w5Jo2Pegi_nXVPEg29sTyhJrKrq=s128-c0x00000000-cc-rp-mo-ba4"
+            },
+            "publishTime": "2024-07-27T22:53:36Z"
+        },
+        {
+            "name": "places/ChIJ2yS7dMwEdkgRFKhwVFl6onA/reviews/ChZDSUhNMG9nS0VJQ0FnSUNUdXRPZ1FBEAE",
+            "relativePublishTimeDescription": "2 months ago",
+            "rating": 5,
+            "text": {
+            "text": "The starter is amazing but the sushi is average.\n\nThe service is fantastic. One of the best in London. The waiters, especially Paulo, and waitress are very patient and friendly to handle our special case. We had allergy for eggs and they did a lot to handle the case like altering food from the set menu. This makes the whole restaurant deserved a 5 stars :)",
+            "languageCode": "en"
+            },
+            "originalText": {
+            "text": "The starter is amazing but the sushi is average.\n\nThe service is fantastic. One of the best in London. The waiters, especially Paulo, and waitress are very patient and friendly to handle our special case. We had allergy for eggs and they did a lot to handle the case like altering food from the set menu. This makes the whole restaurant deserved a 5 stars :)",
+            "languageCode": "en"
+            },
+            "authorAttribution": {
+            "displayName": "Pamcow",
+            "uri": "https://www.google.com/maps/contrib/111783102419251513185/reviews",
+            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWjD0Q1uTo6J0eiOwjjuexbSMrTvhPnEsKh2Kx73UCekX6-gcMccQ=s128-c0x00000000-cc-rp-mo-ba4"
+            },
+            "publishTime": "2024-05-13T20:35:19Z"
+        },
+        {
+            "name": "places/ChIJ2yS7dMwEdkgRFKhwVFl6onA/reviews/ChZDSUhNMG9nS0VJQ0FnSURUcTdmR05BEAE",
+            "relativePublishTimeDescription": "2 months ago",
+            "rating": 2,
+            "text": {
+            "text": "Poor experience! I was seated in the bar and the first approach me was a female server with eye glasses, she was good with a smile and introduce the food on the menu. Afterward, the female server went to help the floor that leaves a gentleman. And everything went mediocre, I had my empty plates leaves in the table for more than 10 minutes as they were chatting, laughing with another female at the bar. And I need to asked the bar server to cleared my plates and asked for my sticks which they forgot to pick up basically due to having fun at the bar area. They just ignored the guest, not coming to asked what’s you need? How’s the food? Only the female server with eyeglasses dropped by to asked whenever she’s cleaning the table. Food was nothing special, nothing to wow off, nothing interesting. So sorry to those diners, yet they are full but I don’t see worth to go there.",
+            "languageCode": "en"
+            },
+            "originalText": {
+            "text": "Poor experience! I was seated in the bar and the first approach me was a female server with eye glasses, she was good with a smile and introduce the food on the menu. Afterward, the female server went to help the floor that leaves a gentleman. And everything went mediocre, I had my empty plates leaves in the table for more than 10 minutes as they were chatting, laughing with another female at the bar. And I need to asked the bar server to cleared my plates and asked for my sticks which they forgot to pick up basically due to having fun at the bar area. They just ignored the guest, not coming to asked what’s you need? How’s the food? Only the female server with eyeglasses dropped by to asked whenever she’s cleaning the table. Food was nothing special, nothing to wow off, nothing interesting. So sorry to those diners, yet they are full but I don’t see worth to go there.",
+            "languageCode": "en"
+            },
+            "authorAttribution": {
+            "displayName": "WTT69",
+            "uri": "https://www.google.com/maps/contrib/106139215858673375215/reviews",
+            "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocJ8G2U-Wp8MqMx05xb2_U3hr19st732znibGUUHoW90YDaeyw=s128-c0x00000000-cc-rp-mo"
+            },
+            "publishTime": "2024-05-28T05:37:23Z"
+        },
+        {
+            "name": "places/ChIJ2yS7dMwEdkgRFKhwVFl6onA/reviews/ChZDSUhNMG9nS0VJQ0FnSUNUdVluTE13EAE",
+            "relativePublishTimeDescription": "2 months ago",
+            "rating": 5,
+            "text": {
+            "text": "My favourite sushi restaurant in London. The food is fresh, delicate and well presented. They have introduced new things like the scallop ceviche that add progressive thinking to their concept. I don't like it, I love it. I always visit you guys thank you for your consistency",
+            "languageCode": "en"
+            },
+            "originalText": {
+            "text": "My favourite sushi restaurant in London. The food is fresh, delicate and well presented. They have introduced new things like the scallop ceviche that add progressive thinking to their concept. I don't like it, I love it. I always visit you guys thank you for your consistency",
+            "languageCode": "en"
+            },
+            "authorAttribution": {
+            "displayName": "Christopher Livia",
+            "uri": "https://www.google.com/maps/contrib/105523478751787936322/reviews",
+            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVNLQJl4Szb8CdDfAkrKRdB4CZMmw0QYAOyle2IWk37nLXR39jn=s128-c0x00000000-cc-rp-mo-ba3"
+            },
+            "publishTime": "2024-05-16T19:31:03Z"
+        }
+        ],
+        "photos": [
+        {
+            "name": "places/ChIJ2yS7dMwEdkgRFKhwVFl6onA/photos/AelY_CtVhlQtkX-HTRqtKoMyf1AJ-LPoAWsGaNQIqSpD9K3bcez4Y_nkJECuIM_Sjz569u21gbjjpZz97TSpKmoXW2dUNGhwXkGClVgXd_ssU5uu-dwswyoCEH2dCfFR6lZfQUGosJJnOV2G0S9dhmDLoOs95QYefx4Y2AkU",
+            "widthPx": 914,
+            "heightPx": 606,
+            "authorAttributions": [
+            {
+                "displayName": "Sticks'n'Sushi Covent Garden",
+                "uri": "//maps.google.com/maps/contrib/112166389494444327588",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjWWusPMTA6gviL1RAfaVm4kXozsPz70rxb1oB8gStTuHzwTmm4=s100-p-k-no-mo"
+            }
+            ]
+        },
+        {
+            "name": "places/ChIJ2yS7dMwEdkgRFKhwVFl6onA/photos/AelY_CtIaxl-TIbxsR1LDFPdxLeBXheZO7GMSCa3Qf244q2NoBsVQfpZstOcQ4JArLIiE6bc6c8NUladKB1wVkq9h6-dMcJIlAlx22c55KvvvomiD1-qEZfPuCgG-RKsl_rhpT7gh9577erFsILc62QgkCP96uvvJjJCJDWJ",
+            "widthPx": 4032,
+            "heightPx": 2268,
+            "authorAttributions": [
+            {
+                "displayName": "Jacob K",
+                "uri": "//maps.google.com/maps/contrib/108355909082074656879",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjWh1YsTc2O0sVvlU4woVJTPF8eWDLtfCEIwZOI0CPxTFrpIs8s=s100-p-k-no-mo"
+            }
+            ]
+        },
+        {
+            "name": "places/ChIJ2yS7dMwEdkgRFKhwVFl6onA/photos/AelY_CsCaGNi-Z1Re8ycSH4i63bYvy7g-fj1ST7jBYrK7iRuJM2wSIjZYlUHkHh6snhMrjj3GXheDbKV8L1TuNW7gOKNmrGtx4OcWVOFLusSxkig0WYnor_3BEHqwa8Ck5_uYTA164GDqGVkZsbvP7YhhaI153JXa7dNIpzZ",
+            "widthPx": 1667,
+            "heightPx": 2500,
+            "authorAttributions": [
+            {
+                "displayName": "Sticks'n'Sushi Covent Garden",
+                "uri": "//maps.google.com/maps/contrib/112166389494444327588",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjWWusPMTA6gviL1RAfaVm4kXozsPz70rxb1oB8gStTuHzwTmm4=s100-p-k-no-mo"
+            }
+            ]
+        },
+        {
+            "name": "places/ChIJ2yS7dMwEdkgRFKhwVFl6onA/photos/AelY_Cv98i_1qJ04KUYGpR_o_25v5L2E9RWesMyv_OZWsYx59Shtqs6R53T-ppchs9YPWNmgwT5yw68nD7z7o6DHM5s6AixEWYE2FSx3-XmBVNhLvs1J18wd1JCqDvaVwZnB1dIGg1wxdVPew341ZAxLgyXNh441vADog-Y",
+            "widthPx": 3072,
+            "heightPx": 4080,
+            "authorAttributions": [
+            {
+                "displayName": "Brad Hardman",
+                "uri": "//maps.google.com/maps/contrib/117100816018388115781",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjWXCQRCd_Bh104dJtSLGD5O6w5Jo2Pegi_nXVPEg29sTyhJrKrq=s100-p-k-no-mo"
+            }
+            ]
+        },
+        {
+            "name": "places/ChIJ2yS7dMwEdkgRFKhwVFl6onA/photos/AelY_Cv6YjGzpk5mqiwuxpmKhP5FTjWCVgDTawzT8wGWFpI-GuZNmAjZkvHTJO8aQQKnqsaBI4hwVS-B71P30dHSvuZq7EJ0NO1rn7QHsIVTGiSRVZQCKRXmUF1v-kma9pcvAcv6ZZMtceXz6aP_2Abg4jNpg3MgjzK61Fjy",
+            "widthPx": 3472,
+            "heightPx": 3472,
+            "authorAttributions": [
+            {
+                "displayName": "Carla",
+                "uri": "//maps.google.com/maps/contrib/100869832908213121638",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjW77fIWMSaqfDwU55ldw1rnBVZRB_JnpOXP-zZTTgnMVQuLH1o7=s100-p-k-no-mo"
+            }
+            ]
+        },
+        {
+            "name": "places/ChIJ2yS7dMwEdkgRFKhwVFl6onA/photos/AelY_CtE-ovePFymr_p0np5C0mN4oDWYDzOWQaoqjzmUX1EqbWeQ5My_yhXQ1syE8G5YYn_dwXIsCnGtv9y1kD82aYXrqH8-meoSKAp8vi5uEzTOgjm9RIgurkJj3dVJZtQjJj5-coP0dBty1ewWnhBfd4jj7Z-ENIYKK4JD",
+            "widthPx": 4000,
+            "heightPx": 3000,
+            "authorAttributions": [
+            {
+                "displayName": "gal melcer",
+                "uri": "//maps.google.com/maps/contrib/104003919558321612702",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjWxPVskbQfI_ENtAZBeGF60-imfBhK7QqIol173strdxkMF-qfC=s100-p-k-no-mo"
+            }
+            ]
+        },
+        {
+            "name": "places/ChIJ2yS7dMwEdkgRFKhwVFl6onA/photos/AelY_CugFQoHoy9CcRdpB8re82F4oCYnwyryunZU3W0fO5Pp62_rlyUPJc0q3Q1vnWoXG3UgxfsjRfDaMr0hZt2F0yrr1TyntdV3_a-xgwzJa23xn4o5zN6-LkGOrA1PqBtdzuA5y0OknkwMFI1zoflomg09D2VzNnfsWZo-",
+            "widthPx": 3840,
+            "heightPx": 2160,
+            "authorAttributions": [
+            {
+                "displayName": "Pamcow",
+                "uri": "//maps.google.com/maps/contrib/111783102419251513185",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjWjD0Q1uTo6J0eiOwjjuexbSMrTvhPnEsKh2Kx73UCekX6-gcMccQ=s100-p-k-no-mo"
+            }
+            ]
+        },
+        {
+            "name": "places/ChIJ2yS7dMwEdkgRFKhwVFl6onA/photos/AelY_Cs1yusCD2R-cRn8O3949oMw0BmcJEkuQvcbCUYAw1lh9clc3fxszU-VyIEHePZc8R1pSaLIiaTx2xfiMopzR4NmGh85rCRiJ3CHk0Zu1myFSL1RzAQvCatDvxh2-dvz6dRls8Hu0_FGfTUO38GK-SpVq1l_EUMeLLc8",
+            "widthPx": 1667,
+            "heightPx": 2500,
+            "authorAttributions": [
+            {
+                "displayName": "Sticks'n'Sushi Covent Garden",
+                "uri": "//maps.google.com/maps/contrib/112166389494444327588",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjWWusPMTA6gviL1RAfaVm4kXozsPz70rxb1oB8gStTuHzwTmm4=s100-p-k-no-mo"
+            }
+            ]
+        },
+        {
+            "name": "places/ChIJ2yS7dMwEdkgRFKhwVFl6onA/photos/AelY_Cs7ER6SfRr9se5_RbNJxQrOHwICDgfyDrKHVCeRgmHdAv7D-Y9rPHeUT6Rwgq9k4_UJwW-1BxqXDIpnff1jX3sMO4e1iSN790rg8TtFUHIkakokgkg6rgw69MgA5m2ppIbjajqL1-BPQM61lHkSa41VW__G94P4XbVI",
+            "widthPx": 2869,
+            "heightPx": 1894,
+            "authorAttributions": [
+            {
+                "displayName": "Sam Aberman",
+                "uri": "//maps.google.com/maps/contrib/111941996399252793572",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjWW8LD98tdvZGX2GSpZHvoTTtCKd8qb17YM2nQsTU6mmb_xz9uN7Q=s100-p-k-no-mo"
+            }
+            ]
+        },
+        {
+            "name": "places/ChIJ2yS7dMwEdkgRFKhwVFl6onA/photos/AelY_Cs7ukcZRffcxLfx9IEGwec0y1ITJpi78QIGJeC7CeDFg0_MWfLltInY07WbloGc-8ABmNu7Y9DVBwdwWZyWOp0Vdavj1eCMlipjSawS3RDHc3R9VwTK0TbjKDaBpUWZKz44G_PF-XeZNpianUu2b066E0CdqBq9bBeV",
+            "widthPx": 4032,
+            "heightPx": 3024,
+            "authorAttributions": [
+            {
+                "displayName": "Jenny Mayer",
+                "uri": "//maps.google.com/maps/contrib/105212616265466119230",
+                "photoUri": "//lh3.googleusercontent.com/a/ACg8ocIGLWImjEZd3RolKd-dFgmqWHQXILrGbCvsq_vd9vCZBN0CKg=s100-p-k-no-mo"
+            }
+            ]
+        }
+        ]
+    },
+    {
+        "id": "ChIJz6Z6V5wFdkgRQ9AZGAlIpzU",
+        "internationalPhoneNumber": "+44 20 7319 7466",
+        "formattedAddress": "45 Park Ln, London W1K 1PN, UK",
+        "location": {
+        "latitude": 51.5065008,
+        "longitude": -0.1517379
+        },
+        "rating": 4.5,
+        "googleMapsUri": "https://maps.google.com/?cid=3866138009017110595",
+        "websiteUri": "https://www.dorchestercollection.com/london/45-park-lane/dining/sushi-kanesaka",
+        "businessStatus": "OPERATIONAL",
+        "userRatingCount": 31,
+        "displayName": {
+        "text": "Sushi Kanesaka",
+        "languageCode": "en"
+        },
+        "reviews": [
+        {
+            "name": "places/ChIJz6Z6V5wFdkgRQ9AZGAlIpzU/reviews/ChdDSUhNMG9nS0VJQ0FnSUR6dF92VHlRRRAB",
+            "relativePublishTimeDescription": "a month ago",
+            "rating": 3,
+            "text": {
+            "text": "The most disappointing among London’s über-omakases. Everything feels surprisingly chaotic considering the impeccable pedigree; the space is soulless, the team are friendly but awkward, and the food itself is solid if unmemorable. While the sushi is firmly mid-pack among its compatriots - doing nothing wrong but also nothing spectacular - the cooked items were extremely traditional and lacking in flair. Everything could do with a polish and some soul-searching to really elevate the obvious underlying quality, but at present it’s just not there. That it’s also the most expensive Japanese in London leaves one asking - why?",
+            "languageCode": "en"
+            },
+            "originalText": {
+            "text": "The most disappointing among London’s über-omakases. Everything feels surprisingly chaotic considering the impeccable pedigree; the space is soulless, the team are friendly but awkward, and the food itself is solid if unmemorable. While the sushi is firmly mid-pack among its compatriots - doing nothing wrong but also nothing spectacular - the cooked items were extremely traditional and lacking in flair. Everything could do with a polish and some soul-searching to really elevate the obvious underlying quality, but at present it’s just not there. That it’s also the most expensive Japanese in London leaves one asking - why?",
+            "languageCode": "en"
+            },
+            "authorAttribution": {
+            "displayName": "J",
+            "uri": "https://www.google.com/maps/contrib/114538079378361774120/reviews",
+            "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocJR45LkQWgwTurW6dBUDicXa5c7sH5zVuAH8dapzWS1T4BJwg=s128-c0x00000000-cc-rp-mo-ba3"
+            },
+            "publishTime": "2024-06-13T09:21:46Z"
+        },
+        {
+            "name": "places/ChIJz6Z6V5wFdkgRQ9AZGAlIpzU/reviews/ChdDSUhNMG9nS0VJQ0FnSURybGZfOHlBRRAB",
+            "relativePublishTimeDescription": "2 weeks ago",
+            "rating": 5,
+            "text": {
+            "text": "Brilliant outpost for the world renowned Sushi Kanesaka in Ginza, Tokyo. Outstanding quality of fish, selected from the best in the world of the season (our tuna was from Portugal)\n\nThe experience leave you wanting more and is definitely a contributing factor to our impulse Japan trip booking. Even the post-meal fruit selection was of exceptional quality. We had the best mango one can imagine (and probably 10x better!!!)\n\nIt is pricy but, less pricy than flights to Japan (you also won’t need to take leave or book hotels!) It’s like a little taste of Japan without the effort of long haul flights, truly the best you can get in London. Will for sure visit their original Ginza location soon.",
+            "languageCode": "en"
+            },
+            "originalText": {
+            "text": "Brilliant outpost for the world renowned Sushi Kanesaka in Ginza, Tokyo. Outstanding quality of fish, selected from the best in the world of the season (our tuna was from Portugal)\n\nThe experience leave you wanting more and is definitely a contributing factor to our impulse Japan trip booking. Even the post-meal fruit selection was of exceptional quality. We had the best mango one can imagine (and probably 10x better!!!)\n\nIt is pricy but, less pricy than flights to Japan (you also won’t need to take leave or book hotels!) It’s like a little taste of Japan without the effort of long haul flights, truly the best you can get in London. Will for sure visit their original Ginza location soon.",
+            "languageCode": "en"
+            },
+            "authorAttribution": {
+            "displayName": "Athena Li",
+            "uri": "https://www.google.com/maps/contrib/116527943612149513562/reviews",
+            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXlih-XQm0wMjTHgi0YU2Tbmosa_cEBahHkU7gp8uibMtH5hNYivA=s128-c0x00000000-cc-rp-mo"
+            },
+            "publishTime": "2024-07-18T22:51:22Z"
+        },
+        {
+            "name": "places/ChIJz6Z6V5wFdkgRQ9AZGAlIpzU/reviews/ChdDSUhNMG9nS0VJQ0FnSURUXzZqUi13RRAB",
+            "relativePublishTimeDescription": "2 months ago",
+            "rating": 5,
+            "text": {
+            "text": "Brilliant Japanese omakase restaurant, I really enjoyed the foods, the sushi-making art and the atmosphere there. It is 10/10 from my experience :)",
+            "languageCode": "en"
+            },
+            "originalText": {
+            "text": "Brilliant Japanese omakase restaurant, I really enjoyed the foods, the sushi-making art and the atmosphere there. It is 10/10 from my experience :)",
+            "languageCode": "en"
+            },
+            "authorAttribution": {
+            "displayName": "Lavender Yan",
+            "uri": "https://www.google.com/maps/contrib/114914874950604047906/reviews",
+            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXKJSIZTDJK3UUFRJHOfwCqL3kSbGOarg-WnOk-imFRbjH_RMF5=s128-c0x00000000-cc-rp-mo"
+            },
+            "publishTime": "2024-05-29T14:48:48Z"
+        },
+        {
+            "name": "places/ChIJz6Z6V5wFdkgRQ9AZGAlIpzU/reviews/ChZDSUhNMG9nS0VJQ0FnSURyNHQ2VmJBEAE",
+            "relativePublishTimeDescription": "3 weeks ago",
+            "rating": 5,
+            "text": {
+            "text": "Wow. Like being in Japan. Such attentive and friendly service with high quality fish.",
+            "languageCode": "en"
+            },
+            "originalText": {
+            "text": "Wow. Like being in Japan. Such attentive and friendly service with high quality fish.",
+            "languageCode": "en"
+            },
+            "authorAttribution": {
+            "displayName": "Ed Hu",
+            "uri": "https://www.google.com/maps/contrib/103951344105373574062/reviews",
+            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWFl-rfNFbdgnuvwcrYqns7F-0OLwgaBMU2EszYI5VW7mWKGNgz8Q=s128-c0x00000000-cc-rp-mo-ba5"
+            },
+            "publishTime": "2024-07-16T09:17:24Z"
+        },
+        {
+            "name": "places/ChIJz6Z6V5wFdkgRQ9AZGAlIpzU/reviews/ChdDSUhNMG9nS0VJQ0FnSUNsa1B6YzZRRRAB",
+            "relativePublishTimeDescription": "8 months ago",
+            "rating": 5,
+            "text": {
+            "text": "Um. One of the greatest omekase meals I have tasted outside Japan.\n£420 per head without gratuity or drinks. 13 courses of divine sushi and sashimi. Service faultless. Visited SK in the Ginza in 2004.  Waited 19 years for a revisit. Just delightful ...",
+            "languageCode": "en"
+            },
+            "originalText": {
+            "text": "Um. One of the greatest omekase meals I have tasted outside Japan.\n£420 per head without gratuity or drinks. 13 courses of divine sushi and sashimi. Service faultless. Visited SK in the Ginza in 2004.  Waited 19 years for a revisit. Just delightful ...",
+            "languageCode": "en"
+            },
+            "authorAttribution": {
+            "displayName": "Varun Sharma",
+            "uri": "https://www.google.com/maps/contrib/100271178166384298729/reviews",
+            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVWqktYnnml4OlLmvJBav8nDRS1OFypUCxplEDEUoWT2XVQd2hPgw=s128-c0x00000000-cc-rp-mo-ba4"
+            },
+            "publishTime": "2023-11-12T22:24:27Z"
+        }
+        ],
+        "photos": [
+        {
+            "name": "places/ChIJz6Z6V5wFdkgRQ9AZGAlIpzU/photos/AelY_Csg0z2UABVZn7FROl8CSn2WLtWUJ6PVXkoEacQ_xdNB8YQPm8J3hWlimEzr4Geh5YAfHxERDPmc3aw47YAa-YuH5TG5u-s3w3za6ZTTak9fMQpsed5MEbwFwWX3dzrHgQqXVjbCoH7yk-PPei4j_oHJTWwJplkHG-gb",
+            "widthPx": 1574,
+            "heightPx": 2098,
+            "authorAttributions": [
+            {
+                "displayName": "Sushi Kanesaka",
+                "uri": "//maps.google.com/maps/contrib/112285872117794317743",
+                "photoUri": "//lh3.googleusercontent.com/a/ACg8ocKV0BUkdUY3qOMoR0l2qFejKhgEeM7EIJdsbKeTegjQcaleYA=s100-p-k-no-mo"
+            }
+            ]
+        },
+        {
+            "name": "places/ChIJz6Z6V5wFdkgRQ9AZGAlIpzU/photos/AelY_CsVJdNQz_4wq8rh59b_pYmtvyGwFp0XeuWKt9iN4e-eeWjRlz3YMGxLlMeL_Uhna1hHGk0V-wzgfL16t28TPJ_mE7KYhi9AKwAhahTG_83jTF50QaPBeAQih7KpZrsEGiPuAgYnGyUuVADe7SvRx8m_3YzRbMbGVO61",
+            "widthPx": 4000,
+            "heightPx": 2252,
+            "authorAttributions": [
+            {
+                "displayName": "Ed Hu",
+                "uri": "//maps.google.com/maps/contrib/103951344105373574062",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjWFl-rfNFbdgnuvwcrYqns7F-0OLwgaBMU2EszYI5VW7mWKGNgz8Q=s100-p-k-no-mo"
+            }
+            ]
+        },
+        {
+            "name": "places/ChIJz6Z6V5wFdkgRQ9AZGAlIpzU/photos/AelY_Ct4gqOJIk8dP3Kz8bsbiDlGz0u6DBNZY4wP192UsX3WY5OzC_3jnqbTnOTyih7ruhNsB6wI2_B3eOXPjc1DKDlo2MwwQNDkM9PNg2QUQnrep5YSU1gjIzTHI_Lpiqo_Yp5sRoiRqgUqcclDiL1HBjMZ4SahAdWn80sp",
+            "widthPx": 4032,
+            "heightPx": 3024,
+            "authorAttributions": [
+            {
+                "displayName": "アトランタプログレ親父",
+                "uri": "//maps.google.com/maps/contrib/114890713628832207893",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjVgS9KJFif_E4VEruZn8ayb4YuaX0hEpZ1N31Q7eJ2KkJrH00U=s100-p-k-no-mo"
+            }
+            ]
+        },
+        {
+            "name": "places/ChIJz6Z6V5wFdkgRQ9AZGAlIpzU/photos/AelY_CtJdxAYYbQW_KLrSB6uz7wuxr35gv26bRTw-RF7s2UTcfgwQ33ThgSWLa1uvHE4L_hiZropnmQ6g3ke5DM5_AvkfAh4FbsFHu_YhA0s5TkOhj83THs5LFEoIu_azhVE_tPlqN-ZouZBlNRtg5ngAQtlt_Ny5YI7VAs-",
+            "widthPx": 4032,
+            "heightPx": 3024,
+            "authorAttributions": [
+            {
+                "displayName": "Lavender Yan",
+                "uri": "//maps.google.com/maps/contrib/114914874950604047906",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjXKJSIZTDJK3UUFRJHOfwCqL3kSbGOarg-WnOk-imFRbjH_RMF5=s100-p-k-no-mo"
+            }
+            ]
+        },
+        {
+            "name": "places/ChIJz6Z6V5wFdkgRQ9AZGAlIpzU/photos/AelY_CvqqgwQ7_FKPo1vwiaMR6JkzgkBDxLLiE-GgNt-1zcwl5xnOSJ9DAYL7S7nGdreFtUVtjX6jNkxkP4quEb93Y988g-YN7_JTl3GUPDiZFSO0fnnmpAWA6yOMlUZMM18lMHzCctJTQzrZ0cLMd5yb0SvXg2StkGVXxOB",
+            "widthPx": 4080,
+            "heightPx": 3060,
+            "authorAttributions": [
+            {
+                "displayName": "Vincent N",
+                "uri": "//maps.google.com/maps/contrib/111417911090796105448",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjW2Y37AAdiXHZ8w__takxiXk_bXG2LokG8BcHoUWI2BfU_b9Js=s100-p-k-no-mo"
+            }
+            ]
+        },
+        {
+            "name": "places/ChIJz6Z6V5wFdkgRQ9AZGAlIpzU/photos/AelY_CvE0I8UJCtYJnjCOxy5UU1jlyoOUfqtCjspYtCkzsrC_1vYJG4YfuoiIUr8pKNoazzi-80aN44I8IJSSGn9LnLqLDPl3OUgwCwlL0f-dhWo5_78klT_REjVHt4HUVLOT1JZkb4Wi6PAXdEz7hk1l1_1X5Kjbb7has5J",
+            "widthPx": 4032,
+            "heightPx": 3024,
+            "authorAttributions": [
+            {
+                "displayName": "Sayaka S",
+                "uri": "//maps.google.com/maps/contrib/113755294890635532008",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjU1bnQobJBlQxJ5JAfILxcM9uUBMtXulQunPzxExQf9-uZyFO9F=s100-p-k-no-mo"
+            }
+            ]
+        },
+        {
+            "name": "places/ChIJz6Z6V5wFdkgRQ9AZGAlIpzU/photos/AelY_CsZjp1j4vjasrpZQS9A2MOQD-7h78vNXqgKGPL5QmI0fA6h-NCwpRB_gpBnLXqb-ixBDPQiWmMrXgjF2eaz8_yWYhX8wZi8DKtUZt-xOh6iwlemER2npuM0cGip4BZLWEZfM5yBTonOd_NsQc0XAIkLlrqSxzTplYa2",
+            "widthPx": 4032,
+            "heightPx": 3024,
+            "authorAttributions": [
+            {
+                "displayName": "アトランタプログレ親父",
+                "uri": "//maps.google.com/maps/contrib/114890713628832207893",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjVgS9KJFif_E4VEruZn8ayb4YuaX0hEpZ1N31Q7eJ2KkJrH00U=s100-p-k-no-mo"
+            }
+            ]
+        },
+        {
+            "name": "places/ChIJz6Z6V5wFdkgRQ9AZGAlIpzU/photos/AelY_CuZQR3eNxWqj6aqbSf4h8b8U9kqRWXTHPj2WUbFecGdVWXmvi30P4YPn7uqKSDOeL0LzZRAPRxKGNaMQYlPhVwjAJuo_vXgg1TgO1mCljSZoug6LjdcxAETOKpv0ZyzAJ8X7SQefx42d8kmYNZX8biZ-1FuilX9eRyi",
+            "widthPx": 4032,
+            "heightPx": 3024,
+            "authorAttributions": [
+            {
+                "displayName": "Lavender Yan",
+                "uri": "//maps.google.com/maps/contrib/114914874950604047906",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjXKJSIZTDJK3UUFRJHOfwCqL3kSbGOarg-WnOk-imFRbjH_RMF5=s100-p-k-no-mo"
+            }
+            ]
+        },
+        {
+            "name": "places/ChIJz6Z6V5wFdkgRQ9AZGAlIpzU/photos/AelY_CsE1IOP9MRwpyKna3p_N0egzyRblEaGkg-30K33-tX3Agyif6jggLTUZyKZAco6T46Lg7zWruFhT2cU_rwfbMpMaN8Mj8HZHSSg0iyc2QS7GrHxOLee-ngiysrPkm4NHXPVH5oReV2Y0C7L0VoGDM6sQ5gK_iyWq3ar",
+            "widthPx": 3024,
+            "heightPx": 4032,
+            "authorAttributions": [
+            {
+                "displayName": "J",
+                "uri": "//maps.google.com/maps/contrib/114538079378361774120",
+                "photoUri": "//lh3.googleusercontent.com/a/ACg8ocJR45LkQWgwTurW6dBUDicXa5c7sH5zVuAH8dapzWS1T4BJwg=s100-p-k-no-mo"
+            }
+            ]
+        },
+        {
+            "name": "places/ChIJz6Z6V5wFdkgRQ9AZGAlIpzU/photos/AelY_Ct2PivHxaXkkzbcB3m57JJXicRG2zmaM-Ie4XUG5jp2kBx8j3E8oloIBLHQ83YjX81DQTYDnQ7kR5o4eK8-QApsjvVZGTECqxKForkeyBJXIGiEB7HOjiVFB_hrUXtgnIDziyzxpBfBxzg9NGtpsJiXYgccCmcFA56s",
+            "widthPx": 3024,
+            "heightPx": 4032,
+            "authorAttributions": [
+            {
+                "displayName": "Helena Liu",
+                "uri": "//maps.google.com/maps/contrib/117907685155334617445",
+                "photoUri": "//lh3.googleusercontent.com/a/ACg8ocIiHabcqNrwdPvfetyq9rVqUt9x_e1PtwI06_yELmoGeNZ16Q=s100-p-k-no-mo"
+            }
+            ]
+        }
+        ]
+    },
+    {
+        "id": "ChIJi_vxlrIcdkgRIz_Ec6MJUBA",
+        "internationalPhoneNumber": "+44 20 3640 7330",
+        "formattedAddress": "Heron Tower, Bishopsgate, London EC2N 4AY, UK",
+        "location": {
+        "latitude": 51.5162822,
+        "longitude": -0.0809644
+        },
+        "rating": 4.4,
+        "googleMapsUri": "https://maps.google.com/?cid=1175450100370259747",
+        "websiteUri": "https://www.sushisamba.com/locations/uk/london-heron-tower",
+        "businessStatus": "OPERATIONAL",
+        "userRatingCount": 9551,
+        "displayName": {
+        "text": "SUSHISAMBA London",
+        "languageCode": "en"
+        },
+        "reviews": [
+        {
+            "name": "places/ChIJi_vxlrIcdkgRIz_Ec6MJUBA/reviews/ChdDSUhNMG9nS0VJQ0FnSUN6MzRXLW1RRRAB",
+            "relativePublishTimeDescription": "2 months ago",
+            "rating": 5,
+            "text": {
+            "text": "The best time to go is before the sunset. You can enjoy the city view in daylight, sunset and night light.\n\nWe just went to have a cocktail each at about 8pm, still daylight.\n\nThey have amazing cocktails 🍸 both alcoholic and non-alcoholic at the bar without booking.  You can order some food at the bar, so it can be a last minute thing if you have no booking and want to enjoy the experience.",
+            "languageCode": "en"
+            },
+            "originalText": {
+            "text": "The best time to go is before the sunset. You can enjoy the city view in daylight, sunset and night light.\n\nWe just went to have a cocktail each at about 8pm, still daylight.\n\nThey have amazing cocktails 🍸 both alcoholic and non-alcoholic at the bar without booking.  You can order some food at the bar, so it can be a last minute thing if you have no booking and want to enjoy the experience.",
+            "languageCode": "en"
+            },
+            "authorAttribution": {
+            "displayName": "Chiho Sharp",
+            "uri": "https://www.google.com/maps/contrib/101139310977865534282/reviews",
+            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXE1u4nDtJ1nDipup7qRf-tWBO3HC2sLQB5UUIiUsTSKFrhrLQi=s128-c0x00000000-cc-rp-mo-ba6"
+            },
+            "publishTime": "2024-06-06T14:26:32Z"
+        },
+        {
+            "name": "places/ChIJi_vxlrIcdkgRIz_Ec6MJUBA/reviews/ChdDSUhNMG9nS0VJQ0FnSURidU9EQnF3RRAB",
+            "relativePublishTimeDescription": "in the last week",
+            "rating": 5,
+            "text": {
+            "text": "I took my wife here for her 30th birthday and we loved it!\nWe were lucky to get a window seat and the views were amazing! The food was so tasty, and to top it off, Azamat gave us incredible service; very attentive, energetic and knowledgeable and gave us a really nice experience! He even brought out a cupcake with a candle for my wife which was a really nice touch!\nWe would 100% recommend!\nThank you Azamat! ☺️",
+            "languageCode": "en"
+            },
+            "originalText": {
+            "text": "I took my wife here for her 30th birthday and we loved it!\nWe were lucky to get a window seat and the views were amazing! The food was so tasty, and to top it off, Azamat gave us incredible service; very attentive, energetic and knowledgeable and gave us a really nice experience! He even brought out a cupcake with a candle for my wife which was a really nice touch!\nWe would 100% recommend!\nThank you Azamat! ☺️",
+            "languageCode": "en"
+            },
+            "authorAttribution": {
+            "displayName": "Adam Williams",
+            "uri": "https://www.google.com/maps/contrib/100581399772706876068/reviews",
+            "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocLKe_fR4txTyoMQXxDhznrqnUROsuuJIWu9dfSVmMIjXAcWRCM=s128-c0x00000000-cc-rp-mo"
+            },
+            "publishTime": "2024-08-01T22:00:23Z"
+        },
+        {
+            "name": "places/ChIJi_vxlrIcdkgRIz_Ec6MJUBA/reviews/ChZDSUhNMG9nS0VJQ0FnSURUNzhIMWNREAE",
+            "relativePublishTimeDescription": "2 months ago",
+            "rating": 5,
+            "text": {
+            "text": "I was looking for the perfect place to celebrate my special day🎁and I didn’t get disappointed, this restaurant exceeded my expectations, good service from the entrance to the last minute, helpful and friendly staff, the food was marvellous, the location and atmosphere of the restaurant it’s breast taken, I will highly recommend it if you want to treat yourself, celebrate special people and occasions. Thank you very much for the service specially to the girl that walk  me to mine table and the charming guy in the coat room",
+            "languageCode": "en"
+            },
+            "originalText": {
+            "text": "I was looking for the perfect place to celebrate my special day🎁and I didn’t get disappointed, this restaurant exceeded my expectations, good service from the entrance to the last minute, helpful and friendly staff, the food was marvellous, the location and atmosphere of the restaurant it’s breast taken, I will highly recommend it if you want to treat yourself, celebrate special people and occasions. Thank you very much for the service specially to the girl that walk  me to mine table and the charming guy in the coat room",
+            "languageCode": "en"
+            },
+            "authorAttribution": {
+            "displayName": "Gisela Ca",
+            "uri": "https://www.google.com/maps/contrib/118098183144320732261/reviews",
+            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXZCe_twfDPJa1fuEqiCZekbA1xQBmpgVoGNQl2rm5DbDJ9k8c=s128-c0x00000000-cc-rp-mo-ba3"
+            },
+            "publishTime": "2024-05-29T10:44:24Z"
+        },
+        {
+            "name": "places/ChIJi_vxlrIcdkgRIz_Ec6MJUBA/reviews/ChZDSUhNMG9nS0VJQ0FnSUNyZ2ZyQ0RnEAE",
+            "relativePublishTimeDescription": "4 weeks ago",
+            "rating": 5,
+            "text": {
+            "text": "The place is just a show.  Located on the 39th, 40th floor. Spectacular view is reflected.  The design is luxurious, meticulous and elegant and so is the service.\nThe most beautiful and clean toilets I have ever seen :)\nReservations are required in advance, and we sat on the bar floor, which is smaller and more intimate.  I recommend ordering on the restaurant floor, the atmosphere is much better there and there is also an amazing balcony!\nThe sushi and salad were excellent and served beautifully on the plate.  The lamb was not successful.\nThe prices are very expensive.\nIt was a good experience for sure.",
+            "languageCode": "en"
+            },
+            "originalText": {
+            "text": "The place is just a show.  Located on the 39th, 40th floor. Spectacular view is reflected.  The design is luxurious, meticulous and elegant and so is the service.\nThe most beautiful and clean toilets I have ever seen :)\nReservations are required in advance, and we sat on the bar floor, which is smaller and more intimate.  I recommend ordering on the restaurant floor, the atmosphere is much better there and there is also an amazing balcony!\nThe sushi and salad were excellent and served beautifully on the plate.  The lamb was not successful.\nThe prices are very expensive.\nIt was a good experience for sure.",
+            "languageCode": "en"
+            },
+            "authorAttribution": {
+            "displayName": "Mirit Baranes",
+            "uri": "https://www.google.com/maps/contrib/115324885028247492653/reviews",
+            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVNpza1Ce8CSxqCIit1DCpO9dhtvZTz5JHlYBQcMxLvNqhjIW7L=s128-c0x00000000-cc-rp-mo-ba4"
+            },
+            "publishTime": "2024-07-07T20:32:50Z"
+        },
+        {
+            "name": "places/ChIJi_vxlrIcdkgRIz_Ec6MJUBA/reviews/ChZDSUhNMG9nS0VJQ0FnSUNyN3ZPUFVBEAE",
+            "relativePublishTimeDescription": "a month ago",
+            "rating": 5,
+            "text": {
+            "text": "First time visiting and definitely lived up to expectations, this place is definitely upscale, it's not a casual wear jeans and trainers establishment, they can refuse access based on your attire, so check before you attend. It is also not a budget friendly so don't expect a cheap bill unless your drinking tap water. The overall decor is beautiful, the views are of course breathtaking literally from the height! The staff, the food, the music, was amazing! I will definitely be going back to try the main restaurant, a special thanks to Alioune &  Vuole, made the experience so enjoyable! Thank you!",
+            "languageCode": "en"
+            },
+            "originalText": {
+            "text": "First time visiting and definitely lived up to expectations, this place is definitely upscale, it's not a casual wear jeans and trainers establishment, they can refuse access based on your attire, so check before you attend. It is also not a budget friendly so don't expect a cheap bill unless your drinking tap water. The overall decor is beautiful, the views are of course breathtaking literally from the height! The staff, the food, the music, was amazing! I will definitely be going back to try the main restaurant, a special thanks to Alioune &  Vuole, made the experience so enjoyable! Thank you!",
+            "languageCode": "en"
+            },
+            "authorAttribution": {
+            "displayName": "Laura Rose",
+            "uri": "https://www.google.com/maps/contrib/104830521497148030282/reviews",
+            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUMZUbjH4pZ5TJ_H_6qEllMSyTiSu7AotNsjmTyPpOCPqpWHOJ9Sg=s128-c0x00000000-cc-rp-mo-ba5"
+            },
+            "publishTime": "2024-07-07T11:43:16Z"
+        }
+        ],
+        "photos": [
+        {
+            "name": "places/ChIJi_vxlrIcdkgRIz_Ec6MJUBA/photos/AelY_Cs21rGPnN45nAl04uttr2cypQzC0eNkpvJwOunX-UQJJVgNeqlZEV80pOxdnyF_4hs_cxMhy6QjkrVnkmu_D5NYwuQc1xeJModBmmBxhXMWMtzj2rP9g5imoU3XSZ3W-RLXxZec0ugO1iVQWkOPM-xIHVf99ikaQeWC",
+            "widthPx": 1296,
+            "heightPx": 864,
+            "authorAttributions": [
+            {
+                "displayName": "SUSHISAMBA London",
+                "uri": "//maps.google.com/maps/contrib/104321619926340133938",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjWdVtSaIxYKFm09Tsc0gzVV3qA3fHBw_AQiBtCSIQRyfAU4cCc=s100-p-k-no-mo"
+            }
+            ]
+        },
+        {
+            "name": "places/ChIJi_vxlrIcdkgRIz_Ec6MJUBA/photos/AelY_CvcNtJqeSs73ZaUJUc5eEuBSdfhJcwyxcDTzLmH9IDZDu6cPrHNgSHZleVXQXUXbHF_-L_FVXHlIQtBOsbT37kqh_EgFiGEwXPBHYFzvekhVpxfAnobsMY9gvtjyu0IeOIG0htePsWfbWr51yQQi9VjS6rAlQ8h_lmX",
+            "widthPx": 1296,
+            "heightPx": 864,
+            "authorAttributions": [
+            {
+                "displayName": "SUSHISAMBA London",
+                "uri": "//maps.google.com/maps/contrib/104321619926340133938",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjWdVtSaIxYKFm09Tsc0gzVV3qA3fHBw_AQiBtCSIQRyfAU4cCc=s100-p-k-no-mo"
+            }
+            ]
+        },
+        {
+            "name": "places/ChIJi_vxlrIcdkgRIz_Ec6MJUBA/photos/AelY_CuArpwIrvOxos3wRRjqERcA7y78a3M6-dT7Zr2Ww3mNrkyA7JV2Q--Z2gkQaqd1QV6NGMxmrE6PqWvFyU2fw009tN9gEbGeWloqDUGslHqmCzcsHyazQfvMknqI0iFc3rGAexloauUrnfCGCELV4krZsauimO-xgHVF",
+            "widthPx": 3600,
+            "heightPx": 4800,
+            "authorAttributions": [
+            {
+                "displayName": "Adam Williams",
+                "uri": "//maps.google.com/maps/contrib/100581399772706876068",
+                "photoUri": "//lh3.googleusercontent.com/a/ACg8ocLKe_fR4txTyoMQXxDhznrqnUROsuuJIWu9dfSVmMIjXAcWRCM=s100-p-k-no-mo"
+            }
+            ]
+        },
+        {
+            "name": "places/ChIJi_vxlrIcdkgRIz_Ec6MJUBA/photos/AelY_CsNfmgFpgb3PhvAylaMULzR2e2FVppm9BCZoZWGg-ZuC2pNVru6GWKqHSGHW3VQQe_5bSBEQ64RQrqGU7TggapqbOxYZUThveZizuhFRA4dM57ZOTmA9LIMmQLodk8DWfM9vFASgKQZm1-2BD60GV8k1KZfEoLOAf-x",
+            "widthPx": 3024,
+            "heightPx": 4032,
+            "authorAttributions": [
+            {
+                "displayName": "The G Force",
+                "uri": "//maps.google.com/maps/contrib/118267616350640001661",
+                "photoUri": "//lh3.googleusercontent.com/a/ACg8ocLczLWz8kBQzpiWCPha8yGFJqkh_Pxu18RBKjpPrjujmk3P7w=s100-p-k-no-mo"
+            }
+            ]
+        },
+        {
+            "name": "places/ChIJi_vxlrIcdkgRIz_Ec6MJUBA/photos/AelY_CtoLjcQKvsbZHCRbirUn9RzOI3mQ1TjPu353-ToYpxY_f-CleLMn0zT0lFSJVZPSUg6Y5J9KXUOqHwJKzbN8rB78GpMyfVoJLFWNpunUhju6P5aM-XvVNKg5Ordo7-uH4PU1Jcu-JiWNh49zrVivBX7uPjb0fN6DxvL",
+            "widthPx": 3072,
+            "heightPx": 4080,
+            "authorAttributions": [
+            {
+                "displayName": "Nora MH",
+                "uri": "//maps.google.com/maps/contrib/114133992697370513793",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjVqEBDSuRyPSl_uJtcwrErKjyDuLjXSC2YCXaVqxhWMdexn8z-Llw=s100-p-k-no-mo"
+            }
+            ]
+        },
+        {
+            "name": "places/ChIJi_vxlrIcdkgRIz_Ec6MJUBA/photos/AelY_Cskw7E5qbKOdXe5k_cIXEnaTrgy4IZFGSnGMeHWi7phd6oWXM_8_xd9kHW5Ql0JEEunHarC-Cq9sP_zd2HQLv19gKKea8QwdkjDuDg68esM-l9d338mv-xF9_6xkma9sxBdqmAI4l02wLVCs1xN0Kx2QAHnTjqxmwmm",
+            "widthPx": 3024,
+            "heightPx": 4032,
+            "authorAttributions": [
+            {
+                "displayName": "Latifa Almulhim",
+                "uri": "//maps.google.com/maps/contrib/112177059075836651149",
+                "photoUri": "//lh3.googleusercontent.com/a/ACg8ocKtS1IHt95BYUQ288HnFxhTPLXFKss_-VqR3wxe1lvFfIbRMA=s100-p-k-no-mo"
+            }
+            ]
+        },
+        {
+            "name": "places/ChIJi_vxlrIcdkgRIz_Ec6MJUBA/photos/AelY_CvDyHWJcazuJj1alOAM_gy-EmB2EBODEGoprZgYc6yazu2-L-CJTlzc1RaYcFN57lOEoQbhcoRQ22XgCvCW7r5-0wHr3ck2ige9v4dFdhAND4J5crdlqoGGQhdQt6-gpRto067zS4_R7Z5GkrV_UloqP5oCBbI0wKyt",
+            "widthPx": 4800,
+            "heightPx": 3600,
+            "authorAttributions": [
+            {
+                "displayName": "César Augusto da Silva Peres",
+                "uri": "//maps.google.com/maps/contrib/112248727517800623309",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjVQyXETLhktjzRSF_I3sEqhKMw_DLyC4bwk-0sbz9bLgvcPXuPumQ=s100-p-k-no-mo"
+            }
+            ]
+        },
+        {
+            "name": "places/ChIJi_vxlrIcdkgRIz_Ec6MJUBA/photos/AelY_CtFTnaK9TuNGaGprx5t5NNoiQcaPdQZZ17aWqWjQ0TR2aZe-cYB0YLe9dGqfL_x9EtxGSbMgkU3tELjhINPVar-1Kziifkz7mo6q_mUrgvSbZXprgMCXoRc72qXwReFJOWm7BjGf4ZOKnPfrXi7EVloNithahTLbKZU",
+            "widthPx": 2736,
+            "heightPx": 2736,
+            "authorAttributions": [
+            {
+                "displayName": "Remi Go",
+                "uri": "//maps.google.com/maps/contrib/100666803556525959193",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjXB7ASP9Qh1C88CI4r2V2EqMvzE9YjqYyusAvnnaqOxt8Qe0Cuw=s100-p-k-no-mo"
+            }
+            ]
+        },
+        {
+            "name": "places/ChIJi_vxlrIcdkgRIz_Ec6MJUBA/photos/AelY_CsR15_OG_Y58PZ4ennNcviDR70lAKMP1K4DtRuRpnBLapTYWgDLmNlosfR-IuksHQmnixvzDUSlvVM7T9A1TzIl9d4JafmzTdEMBKXnzyQs53N5B6hxXoWoG9OySQpGy5Yxav-PMH3GMwEYJdf_hlSByh6ZOKgNx6cO",
+            "widthPx": 2992,
+            "heightPx": 2992,
+            "authorAttributions": [
+            {
+                "displayName": "tz ben",
+                "uri": "//maps.google.com/maps/contrib/111352414388565188332",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjXzDg-n2swSGS-SY_7XI5knSRHgHUdcSG9JvNU5vnkvcd3GuJ9d=s100-p-k-no-mo"
+            }
+            ]
+        },
+        {
+            "name": "places/ChIJi_vxlrIcdkgRIz_Ec6MJUBA/photos/AelY_Cv3Vq9HJ_ayU7QG5vY7VbymhjlykX30U-Rv7JcRmaX65OjI1iQXVj13WU89yxIMz5yYhIXWdBzJTPrRCqlpi5UYZKUv7G2EOBQxco9W8wYXraAmArt0r6c9Sby5NhC0viLpaZupButz9r2N2y8ZM9c7ooA_izPlFegF",
+            "widthPx": 3024,
+            "heightPx": 4032,
+            "authorAttributions": [
+            {
+                "displayName": "Miriam Pancheva",
+                "uri": "//maps.google.com/maps/contrib/107612958319599927706",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjUd_0D5sd5ZbLJ2G8XwCHzMsp7isyor9mYi2WRt66ezD3gf962V=s100-p-k-no-mo"
+            }
+            ]
+        }
+        ]
+    },
+    {
+        "id": "ChIJk0govMocdkgRMHymyiHS2BQ",
+        "internationalPhoneNumber": "+44 20 3645 6734",
+        "formattedAddress": "2 White Church Ln, London E1 7QR, UK",
+        "location": {
+        "latitude": 51.5159921,
+        "longitude": -0.0691277
+        },
+        "rating": 4.6,
+        "googleMapsUri": "https://maps.google.com/?cid=1502181518303722544",
+        "websiteUri": "https://www.sushinoen.com/",
+        "businessStatus": "OPERATIONAL",
+        "userRatingCount": 2186,
+        "displayName": {
+        "text": "Sushinoen",
+        "languageCode": "en"
+        },
+        "reviews": [
+        {
+            "name": "places/ChIJk0govMocdkgRMHymyiHS2BQ/reviews/ChdDSUhNMG9nS0VJQ0FnSUNUN2NTbTN3RRAB",
+            "relativePublishTimeDescription": "2 months ago",
+            "rating": 3,
+            "text": {
+            "text": "Disappointing meal. Was attracted to this request by their good reviews and set dinner me u that I found on their website to find out it wasn't exist in their restaurant.\n\nOrdered A La Carte. Service was attentive, presentation was decent but food and decor was a let down.\n\nAll the rice served was overcooked. It was mushy and soft with no texture. Food was also overly sweet by their sauce. Squid was very nice\n\nI sat next to a wall that wasn't even painted. It was just a plastered wall with stains and splashes all over it.\n\n£76 for 4 dishes between 2 people. Given the price,  it didn't meet my expectations. Not the best, not the worst.",
+            "languageCode": "en"
+            },
+            "originalText": {
+            "text": "Disappointing meal. Was attracted to this request by their good reviews and set dinner me u that I found on their website to find out it wasn't exist in their restaurant.\n\nOrdered A La Carte. Service was attentive, presentation was decent but food and decor was a let down.\n\nAll the rice served was overcooked. It was mushy and soft with no texture. Food was also overly sweet by their sauce. Squid was very nice\n\nI sat next to a wall that wasn't even painted. It was just a plastered wall with stains and splashes all over it.\n\n£76 for 4 dishes between 2 people. Given the price,  it didn't meet my expectations. Not the best, not the worst.",
+            "languageCode": "en"
+            },
+            "authorAttribution": {
+            "displayName": "Lilica Law",
+            "uri": "https://www.google.com/maps/contrib/117134723598090615615/reviews",
+            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWKcOUW5M5pgB_2FpKAfteRfW-SKyKwuxwOCm1V_RCmSpMV7PsuOg=s128-c0x00000000-cc-rp-mo"
+            },
+            "publishTime": "2024-05-17T22:37:43Z"
+        },
+        {
+            "name": "places/ChIJk0govMocdkgRMHymyiHS2BQ/reviews/ChdDSUhNMG9nS0VJQ0FnSUREbzlpVHF3RRAB",
+            "relativePublishTimeDescription": "3 months ago",
+            "rating": 5,
+            "text": {
+            "text": "Excellent service from Kay! Food was great, would definitely come again. Loved the sushi and sashimi, so fresh. The Sukiyaki was the best I’ve had so far, definitely worth coming just for that.\n\nThe drink selection is great, and the plum wine is something to try. Can’t wait to come back!",
+            "languageCode": "en"
+            },
+            "originalText": {
+            "text": "Excellent service from Kay! Food was great, would definitely come again. Loved the sushi and sashimi, so fresh. The Sukiyaki was the best I’ve had so far, definitely worth coming just for that.\n\nThe drink selection is great, and the plum wine is something to try. Can’t wait to come back!",
+            "languageCode": "en"
+            },
+            "authorAttribution": {
+            "displayName": "Daniel Kelshaw",
+            "uri": "https://www.google.com/maps/contrib/106370118069566525885/reviews",
+            "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocKZD6kkPEYAbExnLZgXnI_RkV4DvOfMM7cvgWDvAz5dWmEKWg=s128-c0x00000000-cc-rp-mo"
+            },
+            "publishTime": "2024-04-13T15:43:35Z"
+        },
+        {
+            "name": "places/ChIJk0govMocdkgRMHymyiHS2BQ/reviews/ChdDSUhNMG9nS0VJQ0FnSUNyaU1tc3hRRRAB",
+            "relativePublishTimeDescription": "a month ago",
+            "rating": 4,
+            "text": {
+            "text": "Very friendly service, feels very authentic inside. I had the chirashi don which had several different types of sashimi - the portion size was really good! I also ordered the kimchi but that didn’t taste very fresh, otherwise everything else was lovely.\n\nFor drinks, they ran out of the lychee chu-hi but the peach one I ordered instead was very nice.",
+            "languageCode": "en"
+            },
+            "originalText": {
+            "text": "Very friendly service, feels very authentic inside. I had the chirashi don which had several different types of sashimi - the portion size was really good! I also ordered the kimchi but that didn’t taste very fresh, otherwise everything else was lovely.\n\nFor drinks, they ran out of the lychee chu-hi but the peach one I ordered instead was very nice.",
+            "languageCode": "en"
+            },
+            "authorAttribution": {
+            "displayName": "Susan X",
+            "uri": "https://www.google.com/maps/contrib/110911493730506477932/reviews",
+            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVmxJwRanXVOPRktN2ySfgA0rWSISi_DzSy1GCDbG2fE1KWp78=s128-c0x00000000-cc-rp-mo-ba5"
+            },
+            "publishTime": "2024-07-03T14:03:05Z"
+        },
+        {
+            "name": "places/ChIJk0govMocdkgRMHymyiHS2BQ/reviews/ChdDSUhNMG9nS0VJQ0FnSUNiODlTV3B3RRAB",
+            "relativePublishTimeDescription": "a week ago",
+            "rating": 5,
+            "text": {
+            "text": "It’s really har to find a good Japanese restaurant in London that isn’t either a chain or extortionately expensive. This place is great - very good food and really friendly service.",
+            "languageCode": "en"
+            },
+            "originalText": {
+            "text": "It’s really har to find a good Japanese restaurant in London that isn’t either a chain or extortionately expensive. This place is great - very good food and really friendly service.",
+            "languageCode": "en"
+            },
+            "authorAttribution": {
+            "displayName": "Kieron McCann",
+            "uri": "https://www.google.com/maps/contrib/106550935310433810868/reviews",
+            "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocJu1AP8DviHgbbWRj5XA7kMABsus53q1ArNYZT0XUw-MSrSBw=s128-c0x00000000-cc-rp-mo"
+            },
+            "publishTime": "2024-07-29T20:02:19Z"
+        },
+        {
+            "name": "places/ChIJk0govMocdkgRMHymyiHS2BQ/reviews/ChdDSUhNMG9nS0VJQ0FnSUNicy1tSDVnRRAB",
+            "relativePublishTimeDescription": "a week ago",
+            "rating": 5,
+            "text": {
+            "text": "As always, amazing food. We have never been let down. Hot dishes and sushi equally as good. Yum!!",
+            "languageCode": "en"
+            },
+            "originalText": {
+            "text": "As always, amazing food. We have never been let down. Hot dishes and sushi equally as good. Yum!!",
+            "languageCode": "en"
+            },
+            "authorAttribution": {
+            "displayName": "Edward Pryce",
+            "uri": "https://www.google.com/maps/contrib/109026663452254010269/reviews",
+            "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocID9nVMQvMEFsWmkd-5kSC2nPfN-AN9xg7e8IuLi74KDrcXDw=s128-c0x00000000-cc-rp-mo"
+            },
+            "publishTime": "2024-07-29T19:05:14Z"
+        }
+        ],
+        "photos": [
+        {
+            "name": "places/ChIJk0govMocdkgRMHymyiHS2BQ/photos/AelY_Cu2GZqI6AW1CbuQXMjht0IM49wKY9ka4B7-nCilERrtwVTpS5_Gn5j-GITg_3G4VIecFPzPZ4VBbRGvFbkniTSzicr7JZvxAWAoekjFRDXllgkAekpsLu1qxxw8unL3vKR4wISZHg_0IeW1AesAOikfPHsoEyza5hJs",
+            "widthPx": 1360,
+            "heightPx": 933,
+            "authorAttributions": [
+            {
+                "displayName": "Sushinoen",
+                "uri": "//maps.google.com/maps/contrib/100455069518890637252",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjUIlfic9GsYszPeSCqz4aULzG0lUBA6Rnt--qDBy6dltj5U1Bw=s100-p-k-no-mo"
+            }
+            ]
+        },
+        {
+            "name": "places/ChIJk0govMocdkgRMHymyiHS2BQ/photos/AelY_CtRQPxEM_0BM8ZTWw_Vqv6zd45zAwSOQXKW4obuBuDcE3601--RCfwL13aYz1Id9iLv3WSKfSXbGwCaJzfl67iOyzCn3bLD7nI2H_uwJbZ_1zDKy2RVpvju7f-9yD200llDmvIWByU-xeA0N8yIzqv6cgHo7ZHkbo-g",
+            "widthPx": 4800,
+            "heightPx": 3203,
+            "authorAttributions": [
+            {
+                "displayName": "Sushinoen",
+                "uri": "//maps.google.com/maps/contrib/100455069518890637252",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjUIlfic9GsYszPeSCqz4aULzG0lUBA6Rnt--qDBy6dltj5U1Bw=s100-p-k-no-mo"
+            }
+            ]
+        },
+        {
+            "name": "places/ChIJk0govMocdkgRMHymyiHS2BQ/photos/AelY_Ct16MPZwYKKIfJrJwlbnuMNC5RLjMOMJCNcpB5iCTt5hUpEDDz0_GQWa2EebgyvovjJYiSkqhCj9bOwNJj6i6Au4p54IvOjQCpMZ216cFCr-Rn3UXETdcLObfN2Q_nqSbo1QMiUyNJ03FiM6aiqaGWR3Fmj3aJxL_sR",
+            "widthPx": 4000,
+            "heightPx": 3000,
+            "authorAttributions": [
+            {
+                "displayName": "Pilar Zhang Qiu",
+                "uri": "//maps.google.com/maps/contrib/113659628333303245001",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjWaqV3EbXTj4HT--U060v2up5rFTr9TlWgC2QaJTCyu27-K4Ew9Hw=s100-p-k-no-mo"
+            }
+            ]
+        },
+        {
+            "name": "places/ChIJk0govMocdkgRMHymyiHS2BQ/photos/AelY_CuLCPOgufNu-HT7cPVwNtbeuJLiBExXV4nsRMUbIZiMKoudAY12VEnGRoYb5Bg-KGppPMCRpz_CP2o6ADaE7Lfs435u4ccT8JmxVLaroH6AJneoqEI0gZJpr6pB0oGysiyJFPhMuZ2UriqoXTtR_d5XOONac3NBKNBa",
+            "widthPx": 4032,
+            "heightPx": 2963,
+            "authorAttributions": [
+            {
+                "displayName": "Rò Mina",
+                "uri": "//maps.google.com/maps/contrib/112994791233277603339",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjXX7qNWrBmqQIxcBiGkhdTJR2T2IBlHBpAGpKp6GMQfrJ7llCk=s100-p-k-no-mo"
+            }
+            ]
+        },
+        {
+            "name": "places/ChIJk0govMocdkgRMHymyiHS2BQ/photos/AelY_CsbJlMK8qlwmg1KKGPuwQjgNy1Z3iPZJeY9L6BZTXnWZ-XRfiw3vwYkJyasmFhBebixIoksWdpaNSgtt0uQaPufaTarVOjRg9j5yPoIlkZ3YnjRW_1nCvVI1-zlbDq8sO-d7BkDEqwLf9G05A6iYno2FLCaeJUrq32P",
+            "widthPx": 3024,
+            "heightPx": 4032,
+            "authorAttributions": [
+            {
+                "displayName": "Kieron McCann",
+                "uri": "//maps.google.com/maps/contrib/106550935310433810868",
+                "photoUri": "//lh3.googleusercontent.com/a/ACg8ocJu1AP8DviHgbbWRj5XA7kMABsus53q1ArNYZT0XUw-MSrSBw=s100-p-k-no-mo"
+            }
+            ]
+        },
+        {
+            "name": "places/ChIJk0govMocdkgRMHymyiHS2BQ/photos/AelY_CuoyXNh-NUbvan3hlalgFqo8k4fqmnGdnTkvqUYgFAFMQKIbit_H64GH0wSEoazkMqQ9CLMU5J5zQ3Ma18uol_GX8yimyLGJetb5MLDMInPM68-P7QuPnBjnDD1dcDypJfynd5pp_UP0l8zJI3HR6wvdNJ6l8dNCzlV",
+            "widthPx": 4080,
+            "heightPx": 3072,
+            "authorAttributions": [
+            {
+                "displayName": "P S",
+                "uri": "//maps.google.com/maps/contrib/116930739784893746754",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjXAi4wl8P5RZKbO5saPpUJ77L1Q8pwLM8FMynKfYpeWJL06Z5fe=s100-p-k-no-mo"
+            }
+            ]
+        },
+        {
+            "name": "places/ChIJk0govMocdkgRMHymyiHS2BQ/photos/AelY_Ctvoq-JWZ-KdccDG-Bdlm59Ck9KCoGCZVgtD-xb0OgPQAD08uF8xgCtw1ht3Ik_IHO_aPghYIOyolP-hyxOQ_3tgkY8Ibj7eZzWDR_cJ6XkRODpr2a4fzQ2mUDD5_M-rj-Zfosqh95a8nZGRPw0aHf51hc5EFEyJ-v_",
+            "widthPx": 4800,
+            "heightPx": 3600,
+            "authorAttributions": [
+            {
+                "displayName": "Ray W",
+                "uri": "//maps.google.com/maps/contrib/116564273267134384442",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjUMInP7-V7oJzfpdxwnofgJxJ3rPlbRHoe6SdFYvvU7ADO9lsNTMA=s100-p-k-no-mo"
+            }
+            ]
+        },
+        {
+            "name": "places/ChIJk0govMocdkgRMHymyiHS2BQ/photos/AelY_CtydyxktFny5RgF1K-r9boxVOF3a66mg4cGSDki7upvk6sGVASTxfVKL9gOjMH4vbYbN8JxtNhi7OKGXbAsumcJ11mh0A4FdCFysxj09mqzRLKC-0sYnK6DB4G5PlIWKyvHATsd-i96zc_Egwrg8tNaKi5DW323dm4n",
+            "widthPx": 3599,
+            "heightPx": 4800,
+            "authorAttributions": [
+            {
+                "displayName": "Josh Broughton",
+                "uri": "//maps.google.com/maps/contrib/116732467221933525339",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjVx8ZCqrjdB8OsUQlbUlZdn4erID9XBZ6bR2lSsRWpSN-mlwdo=s100-p-k-no-mo"
+            }
+            ]
+        },
+        {
+            "name": "places/ChIJk0govMocdkgRMHymyiHS2BQ/photos/AelY_CvGd6AN_ny7XuqOEWgevhKvL8iXTW5zh9f0zIw063XO1TB_kbb8ri3iGtXSAhxRSo27Eeg_K74qLa28jCVRnAruxK2VxJYZI8SKBL6OuWduG1Bbcsnrr8RPsxCEf7-RL9AeVEq1p43A8aRn-kgqgzGxSKKo02jfcAVu",
+            "widthPx": 4800,
+            "heightPx": 3600,
+            "authorAttributions": [
+            {
+                "displayName": "David George Williams",
+                "uri": "//maps.google.com/maps/contrib/111772052637974961149",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjUuAh7ydEdLj0JqxxboHREDVxTdY2URP917l1frTEzB_QrZ6C0=s100-p-k-no-mo"
+            }
+            ]
+        },
+        {
+            "name": "places/ChIJk0govMocdkgRMHymyiHS2BQ/photos/AelY_CviiebCUDhokdGXbXruyzTZiHgm2VgMOX8bAz0EbyI9rHStiOsX1zCXE2zYoly2-foD__mtBBR8Kj4Udr9vALYj2BFBiI9I5V29eFo3t0YkPGW6Iu0-HYkqEt7MQi8AfRYSCFcn2tMX_viRoSDr6gdtL9Y-4kffSZKc",
+            "widthPx": 4032,
+            "heightPx": 3024,
+            "authorAttributions": [
+            {
+                "displayName": "Chuchen Xiong",
+                "uri": "//maps.google.com/maps/contrib/107913543478298300236",
+                "photoUri": "//lh3.googleusercontent.com/a/ACg8ocLk__bvGN7J1CXGr1IkTDoM_5fKiP1xHzOosokUNuqpxgvgpA=s100-p-k-no-mo"
+            }
+            ]
+        }
+        ]
+    },
+    {
+        "id": "ChIJIyyQ6NUadkgR3_o542CXFt8",
+        "internationalPhoneNumber": "+44 20 7636 4455",
+        "formattedAddress": "114 Great Portland St, London W1W 6PH, UK",
+        "location": {
+        "latitude": 51.5195125,
+        "longitude": -0.142176
+        },
+        "rating": 4.5,
+        "googleMapsUri": "https://maps.google.com/?cid=16075202362330446559",
+        "websiteUri": "http://www.sushiatelier.co.uk/",
+        "businessStatus": "OPERATIONAL",
+        "userRatingCount": 875,
+        "displayName": {
+        "text": "Sushi Atelier",
+        "languageCode": "en"
+        },
+        "reviews": [
+        {
+            "name": "places/ChIJIyyQ6NUadkgR3_o542CXFt8/reviews/ChdDSUhNMG9nS0VJQ0FnSUNUc2R1bDVBRRAB",
+            "relativePublishTimeDescription": "2 months ago",
+            "rating": 5,
+            "text": {
+            "text": "BEST SUSHI CHEF in London, Rodrigo! Service was fast and welcoming! Sushi quality served was the freshest it can be and they really care about giving fresh fish to customers! Price was so worth it compared to other sushi places I went to! Presentation and artwork was on another level! Definitely recommend!",
+            "languageCode": "en"
+            },
+            "originalText": {
+            "text": "BEST SUSHI CHEF in London, Rodrigo! Service was fast and welcoming! Sushi quality served was the freshest it can be and they really care about giving fresh fish to customers! Price was so worth it compared to other sushi places I went to! Presentation and artwork was on another level! Definitely recommend!",
+            "languageCode": "en"
+            },
+            "authorAttribution": {
+            "displayName": "Tiffany Zhang",
+            "uri": "https://www.google.com/maps/contrib/117331766630070152526/reviews",
+            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVfTDsmxpb-W3Wy3RjHq0EFUnvHPZXfrXjxTlgv-VmQi4NF6Wgm=s128-c0x00000000-cc-rp-mo"
+            },
+            "publishTime": "2024-05-16T04:34:03Z"
+        },
+        {
+            "name": "places/ChIJIyyQ6NUadkgR3_o542CXFt8/reviews/ChdDSUhNMG9nS0VJQ0FnSUNiaHFYLW9BRRAB",
+            "relativePublishTimeDescription": "a week ago",
+            "rating": 5,
+            "text": {
+            "text": "I dined at this restaurant in early May. The food was fantastic, especially the sushi options. Everything we ordered was delicious. The service was excellent as well. Overall, it was a great experience.",
+            "languageCode": "en"
+            },
+            "originalText": {
+            "text": "I dined at this restaurant in early May. The food was fantastic, especially the sushi options. Everything we ordered was delicious. The service was excellent as well. Overall, it was a great experience.",
+            "languageCode": "en"
+            },
+            "authorAttribution": {
+            "displayName": "Abdul Rahman Alsafadi",
+            "uri": "https://www.google.com/maps/contrib/115693790578350481689/reviews",
+            "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocJFa_igejnMrbM1uEjQEurXSb7JK4yY4LWJsk44jPAU8DUpXnI=s128-c0x00000000-cc-rp-mo-ba5"
+            },
+            "publishTime": "2024-07-26T11:09:04Z"
+        },
+        {
+            "name": "places/ChIJIyyQ6NUadkgR3_o542CXFt8/reviews/ChZDSUhNMG9nS0VJQ0FnSURqNnFmY2VBEAE",
+            "relativePublishTimeDescription": "3 months ago",
+            "rating": 5,
+            "text": {
+            "text": "We have been at Sushi Atelier for dinner on 1st of May 24 to celebrate a birthday on the family... Food was great and delicious, ambient was friendly, positive, inspiring... Staff extremely friendly, very knowledgeable and very good recommendations in terms of dishes and drinks...\nGreat variety of sake...\nIt is a must...  Will be back for more super tasty food...\nHighly recommend",
+            "languageCode": "en"
+            },
+            "originalText": {
+            "text": "We have been at Sushi Atelier for dinner on 1st of May 24 to celebrate a birthday on the family... Food was great and delicious, ambient was friendly, positive, inspiring... Staff extremely friendly, very knowledgeable and very good recommendations in terms of dishes and drinks...\nGreat variety of sake...\nIt is a must...  Will be back for more super tasty food...\nHighly recommend",
+            "languageCode": "en"
+            },
+            "authorAttribution": {
+            "displayName": "George Luputiu",
+            "uri": "https://www.google.com/maps/contrib/110936160775775891184/reviews",
+            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUD8uXmeSNRtlBzk1lMo0JFCNcDSk05ORu_fc2WcZeTBr5mFwl7LQ=s128-c0x00000000-cc-rp-mo-ba6"
+            },
+            "publishTime": "2024-05-01T22:39:09Z"
+        },
+        {
+            "name": "places/ChIJIyyQ6NUadkgR3_o542CXFt8/reviews/ChZDSUhNMG9nS0VJQ0FnSURMN3ZIb2JREAE",
+            "relativePublishTimeDescription": "a month ago",
+            "rating": 4,
+            "text": {
+            "text": "We had the Yuzu Salted Edamame and two omakase sushi set. A plate of 15 pieces of sushi was served all at once. The quality of the sushi was overall good, and the cocktails were nice, especially the Sweet Tokyo (whisky-based cocktails).\n\nIt’s hard to find similar sushi quality in London at this price range, but I suggest better control of hygiene.  I saw a fly over the sushi (not on our plate) right in front of us, and it seemed the chefs noticed it too, as I believed they did not serve that plate to the client.  It would be a good idea to keep the door closed to prevent flies from entering the restaurant.",
+            "languageCode": "en"
+            },
+            "originalText": {
+            "text": "We had the Yuzu Salted Edamame and two omakase sushi set. A plate of 15 pieces of sushi was served all at once. The quality of the sushi was overall good, and the cocktails were nice, especially the Sweet Tokyo (whisky-based cocktails).\n\nIt’s hard to find similar sushi quality in London at this price range, but I suggest better control of hygiene.  I saw a fly over the sushi (not on our plate) right in front of us, and it seemed the chefs noticed it too, as I believed they did not serve that plate to the client.  It would be a good idea to keep the door closed to prevent flies from entering the restaurant.",
+            "languageCode": "en"
+            },
+            "authorAttribution": {
+            "displayName": "Harry Inuk",
+            "uri": "https://www.google.com/maps/contrib/101798620825959450292/reviews",
+            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUyOzVY-5wZqUoLSbLokozMDhlYKE2L5AfjYA_ysos3sjVw0ZJL=s128-c0x00000000-cc-rp-mo-ba5"
+            },
+            "publishTime": "2024-06-27T21:53:26Z"
+        },
+        {
+            "name": "places/ChIJIyyQ6NUadkgR3_o542CXFt8/reviews/ChdDSUhNMG9nS0VJQ0FnSUQ5czV6NHdBRRAB",
+            "relativePublishTimeDescription": "4 months ago",
+            "rating": 4,
+            "text": {
+            "text": "It is a nice sushi restaurant, but to be paying higher than average price, I would have expected a much better taste.\nFavourite dishes were pan-fried prawns and the matcha cheesecake, but the sushi rolls were overall a bit bland and not that special.\nService was very good and attentive, but the place is basic.",
+            "languageCode": "en"
+            },
+            "originalText": {
+            "text": "It is a nice sushi restaurant, but to be paying higher than average price, I would have expected a much better taste.\nFavourite dishes were pan-fried prawns and the matcha cheesecake, but the sushi rolls were overall a bit bland and not that special.\nService was very good and attentive, but the place is basic.",
+            "languageCode": "en"
+            },
+            "authorAttribution": {
+            "displayName": "Luana C",
+            "uri": "https://www.google.com/maps/contrib/102954473791258548648/reviews",
+            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXK18PU2oBMK0Yisyjipw_Y2vw85TFIfrSE_MGirKROdcCTF2ya=s128-c0x00000000-cc-rp-mo-ba3"
+            },
+            "publishTime": "2024-03-20T19:23:58Z"
+        }
+        ],
+        "photos": [
+        {
+            "name": "places/ChIJIyyQ6NUadkgR3_o542CXFt8/photos/AelY_Cs5rAu5En2Hy-6ugTwValYjfOitiLdDjD4wYu7-2ESvCENmgTyVGJ1-ZMhd5GuWpKp0lB67hlO8oQpWzR8c74G9NEhpT9uZP0yURq5sez7Ea2z-XaP5ha80ybxSuXNmXOKp5o9qu-a-ygmvZ9Gf7J-_J-2Oo1tawmV-",
+            "widthPx": 1920,
+            "heightPx": 1152,
+            "authorAttributions": [
+            {
+                "displayName": "Sushi Atelier",
+                "uri": "//maps.google.com/maps/contrib/108037660861684937305",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjXcFh1S3aOMdA-wO-Oj3jMNXb5etpdoYhBgWDYN7QzlECW3kvo=s100-p-k-no-mo"
+            }
+            ]
+        },
+        {
+            "name": "places/ChIJIyyQ6NUadkgR3_o542CXFt8/photos/AelY_CvAmjq9Y9gqWXzfIxkjCxAZb95tSQBU8I102pyHCWFIiy94Mr6aZV2x04EUpOYnpcFz168lwZOQJR8b4mlD2RXhLB1DDpYDr6yMjExBw91uSoYCkAt9YUOp51Px205FaSy5V4V3Ye-QAW0wEgkmJDPZI05-5lb1yse9",
+            "widthPx": 1241,
+            "heightPx": 1241,
+            "authorAttributions": [
+            {
+                "displayName": "Sushi Atelier",
+                "uri": "//maps.google.com/maps/contrib/108037660861684937305",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjXcFh1S3aOMdA-wO-Oj3jMNXb5etpdoYhBgWDYN7QzlECW3kvo=s100-p-k-no-mo"
+            }
+            ]
+        },
+        {
+            "name": "places/ChIJIyyQ6NUadkgR3_o542CXFt8/photos/AelY_Cuiq20dzqrfDkS4MXVCWj3Qn_33p2yh5IZmdTcdc6bUo7A48d3Cg7SesXIX9qxEoGpG_ir6nLMpqcTScnZCXK8CGfE56KrkFJmfjZ6GcmA4vjKW99wpkXJWdFzETCIBYWtL0AFz6VPYG1fEeNRBCos0o86tKq6xOQ-6",
+            "widthPx": 1170,
+            "heightPx": 837,
+            "authorAttributions": [
+            {
+                "displayName": "E CHUNG",
+                "uri": "//maps.google.com/maps/contrib/114324518571699561308",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjUFl1GYXnbbh_cZ8QcfQYgOw1AdxeMXUSVg7pl6J-MlggwKzOY5dg=s100-p-k-no-mo"
+            }
+            ]
+        },
+        {
+            "name": "places/ChIJIyyQ6NUadkgR3_o542CXFt8/photos/AelY_CvzhCnoZ5idTB-ebrHlf8qzViH9m-qwHnGu7CSZJOckJZ-1r3p4vwm4zciJHoYNwzl0HOQvcN-2HSZZ88HKmxdLg9Ew7k8sLZgpGjJSkMY7a2_ea3UyMDObjxtb0B9U6Pyrzr1UZHZaCG8t-F1C4MJTLRDEkkGv1VaY",
+            "widthPx": 3024,
+            "heightPx": 4032,
+            "authorAttributions": [
+            {
+                "displayName": "R Fed",
+                "uri": "//maps.google.com/maps/contrib/114978144222598728925",
+                "photoUri": "//lh3.googleusercontent.com/a/ACg8ocIJRkOS_MBSKGnlG-ZP-mcA416xetRbIqwWEcE3H4zMXnqBUw=s100-p-k-no-mo"
+            }
+            ]
+        },
+        {
+            "name": "places/ChIJIyyQ6NUadkgR3_o542CXFt8/photos/AelY_CsEmBBN8c5odN53usJvmEzEx_iNdQM_yUe1ZFk58G_OOAgxJelbvV1b0TPe60WNyF229RPAKntx0hWoFo_NaI9zv3v5n1JZo6z7weB6Qmw_TZqueoZBBw894yqfcMhNo1xX4ca9gdmzfqVB7d8-A0eO3z46Jfrqdxsm",
+            "widthPx": 3024,
+            "heightPx": 4032,
+            "authorAttributions": [
+            {
+                "displayName": "Ben Hicks",
+                "uri": "//maps.google.com/maps/contrib/114333479144525355088",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjVa-lNIXeDWHLz8lCV0Jhswy-Ab6Fw8QtC8fzI3Qg5Wepy9bM-X=s100-p-k-no-mo"
+            }
+            ]
+        },
+        {
+            "name": "places/ChIJIyyQ6NUadkgR3_o542CXFt8/photos/AelY_Cu8v9nBYAVhEgSihf6ea97dDsgvD35hSvQdcA_7QZ9Dd24CJ-gL9Rx5p6VXs_6VPbG2YIhb4wxl21WzPE0rAGRpt16AvT5jXE3fBSEh4zLtpRubLpRnxh4dGc6Lofd2TzfB5Cd47rhmk1fadFXLEjqzqGy4b7KYjaHZ",
+            "widthPx": 4080,
+            "heightPx": 3072,
+            "authorAttributions": [
+            {
+                "displayName": "George Luputiu",
+                "uri": "//maps.google.com/maps/contrib/110936160775775891184",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjUD8uXmeSNRtlBzk1lMo0JFCNcDSk05ORu_fc2WcZeTBr5mFwl7LQ=s100-p-k-no-mo"
+            }
+            ]
+        },
+        {
+            "name": "places/ChIJIyyQ6NUadkgR3_o542CXFt8/photos/AelY_CuRPQuC7iXLup7V8q2OXFhh3vkouBLSGd57Ua7ETL_IKlYuSh9-9LmRgaaJwvxIwaQfXQ6QVXtrNVUorHelAXbzegccUUoSQuaJudkyDyHCltSMnPkW3QuhvBsW6bUsSg8b9LXSS5TsFDxXo3oa9dv6Rs4DCyJexlyE",
+            "widthPx": 4032,
+            "heightPx": 3024,
+            "authorAttributions": [
+            {
+                "displayName": "Sofía G",
+                "uri": "//maps.google.com/maps/contrib/117028413382322456804",
+                "photoUri": "//lh3.googleusercontent.com/a/ACg8ocIQQWnqv5P-KJrWcbJZVi1v2qQGaW9ozPNmJoOHNOPMS4LWcw=s100-p-k-no-mo"
+            }
+            ]
+        },
+        {
+            "name": "places/ChIJIyyQ6NUadkgR3_o542CXFt8/photos/AelY_CvMZvHrAavAjEqIV_XG6tuRv0Ghq5pDb-mo6j81zapEo-inT2L5kKU2P_ERJblRRDsFhHIH15lB_5t4G-1OXFDmJhauGyFMh6jxgPRT_QNbGAkNMSg0KKUv53Fbw-wuLiNIflJHjRdDQKEx4_R_xFcdoY7xyAf4ELwm",
+            "widthPx": 1440,
+            "heightPx": 1800,
+            "authorAttributions": [
+            {
+                "displayName": "Tj Jones",
+                "uri": "//maps.google.com/maps/contrib/103829233564994368327",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjVN85ZQLr7WsJJ_kp4PR4afq35df-LA5XCnXmWYPNSur0tdCJg=s100-p-k-no-mo"
+            }
+            ]
+        },
+        {
+            "name": "places/ChIJIyyQ6NUadkgR3_o542CXFt8/photos/AelY_CvdMQgCQb6dmMlVyXKVQ7RP0LGt6d9dFSaC5l2H0G_8ou4ngKT4LKykIRrZ4ernKW5f4_0MhhKXPqMucnrM-o58rOcVoBKY3URkP_7_K5mqN7WvD01hCXGdeQ5s-XoQ2OBLoOUHXPJyovKx7PYCr-12ZUwW4Tvj9rPU",
+            "widthPx": 4032,
+            "heightPx": 3024,
+            "authorAttributions": [
+            {
+                "displayName": "Alice Leung",
+                "uri": "//maps.google.com/maps/contrib/111811730511735547090",
+                "photoUri": "//lh3.googleusercontent.com/a/ACg8ocIXmiZem3p_ZFsnnHMXidjhM6hgAJNF5POkHux-9b17XvNsdA=s100-p-k-no-mo"
+            }
+            ]
+        },
+        {
+            "name": "places/ChIJIyyQ6NUadkgR3_o542CXFt8/photos/AelY_Csj34rV6bvBT61OQ5g3xvvoJur9uZVe950us7IgsTJy07haIG5xhr_N5kER10ZoWgjP2NKMIoOxKxC74vrwDiA5t49Rp9EYbudNzJzJlM3PqKLgPGaAyCDYMrYbrWRB-cav1eTyLA1te_80dKCYeJ1-poo7JGLKvsXO",
+            "widthPx": 1500,
+            "heightPx": 1125,
+            "authorAttributions": [
+            {
+                "displayName": "k m",
+                "uri": "//maps.google.com/maps/contrib/110105776690916346281",
+                "photoUri": "//lh3.googleusercontent.com/a/ACg8ocLITMo-thgkgI53bdvcH0V5vPZSVfjLGANJZs_bc6Sw5s_sOw=s100-p-k-no-mo"
+            }
+            ]
+        }
+        ]
+    }
+    ]
+}
