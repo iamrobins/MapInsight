@@ -1,4 +1,5 @@
 const express = require("express");
+const { MongoClient } = require("mongodb");
 const { v4: uuidv4 } = require("uuid");
 const dotenv = require("dotenv");
 const amqp = require("amqplib");
@@ -6,12 +7,30 @@ dotenv.config({
   path: process.env.NODE_ENV === "production" ? ".env" : ".env.dev",
 });
 
-const errorHandler = require("./errorMiddleware");
-const logger = require("./logger");
-const sampleData = require("./sample-data");
+const errorHandler = require("./middlewares/errorMiddleware");
+const logger = require("./utils/logger");
+const sampleData = require("./mock/sample-data2");
 const app = express();
 
-app.use(express.json());
+const mongoClient = new MongoClient(process.env.MONGO_URI);
+
+const dbName = "MapInsight";
+let db;
+let jobStatusCollection;
+let placesCollection;
+
+async function connectMongo() {
+  // Use connect method to connect to the server
+  await mongoClient.connect();
+  console.log("Connected successfully to server");
+  db = mongoClient.db(dbName);
+  jobStatusCollection = db.collection("jobStatus");
+  placesCollection = db.collection("places");
+}
+
+connectMongo();
+
+app.use(express.json({ limit: "50mb" }));
 let connection;
 let channel;
 const apiKey = process.env.MAP_INSIGHT_GCP_KEY;
@@ -49,17 +68,42 @@ async function connectRabbitMQ() {
 // Connect to RabbitMQ
 connectRabbitMQ();
 
+const extractPlaces = (places) =>
+  places.data.places.map((d) => ({
+    id: d.id,
+    placeName: d.displayName.text,
+    address: d.formattedAddress,
+    location: d.location,
+    phoneNumber: d.internationalPhoneNumber,
+    website: d.websiteUri,
+    gMapsUri: d.googleMapsUri,
+    rating: d.rating,
+    userRatingCount: d.userRatingCount,
+    photos: d.photos
+      .slice(0, 5)
+      .map((p) => ({ name: p.name, heightPx: p.heightPx, widthPx: p.widthPx })),
+    reviews: d.reviews.slice(0, 5).map((r) => ({
+      authorName: r.authorAttribution.displayName,
+      authorPhoto: r.authorAttribution.photoUri,
+      text: r.originalText.text,
+      rating: r.rating,
+      publishTime: r.publishTime,
+      relativePublishTimeDescription: r.relativePublishTimeDescription,
+    })),
+  }));
+
 app.get("/search", async (req, res, next) => {
   if (process.env.NODE_ENV != "production") {
-    const jobId = uuidv4();
+    const jobId = 1;
+    const placesDev = extractPlaces(sampleData);
 
     logger.info("JobId generated and received places data");
     channel.sendToQueue(
       "insight",
-      Buffer.from(JSON.stringify({ jobId, data: sampleData }))
+      Buffer.from(JSON.stringify({ jobId, data: placesDev }))
     );
     logger.info("JobId and data added to insight Queue");
-    return res.status(200).json({ jobId, data: sampleData });
+    return res.status(200).json({ jobId, data: placesDev });
   } else {
     try {
       if (!req.query.text)
@@ -72,10 +116,11 @@ app.get("/search", async (req, res, next) => {
           "Content-Type": "application/json",
           "X-Goog-Api-Key": apiKey,
           "X-Goog-FieldMask":
-            "places.id,places.displayName,places.formattedAddress,places.location,places.businessStatus,places.googleMapsUri,places.photos,places.websiteUri,places.currentOpeningHours,places.regularOpeningHours,places.nationalPhoneNumber,places.internationalPhoneNumber,places.reviews",
+            "places.id,places.displayName,places.formattedAddress,places.location,places.businessStatus,places.googleMapsUri,places.photos,places.websiteUri,places.rating,places.userRatingCount,places.internationalPhoneNumber,places.reviews",
         },
         body: JSON.stringify({
           textQuery: req.query.text,
+          pageSize: 5,
         }),
       });
 
@@ -84,29 +129,50 @@ app.get("/search", async (req, res, next) => {
 
       logger.info("JobId generated and received places data");
       const data = await response.json();
+
+      const places = extractPlaces(data);
+
       channel.sendToQueue(
         "insight",
-        Buffer.from(JSON.stringify({ jobId, data }))
+        Buffer.from(JSON.stringify({ jobId, data: places }))
       );
       logger.info("JobId and data added to insight Queue");
-      res.status(200).json({ jobId, data });
+      res.status(200).json({ jobId, data: places });
     } catch (error) {
       next(error); // Passes the error to the error handling middleware
     }
   }
 });
 
-app.get("/search", async (req, res, next) => {
+app.get("/summaries", async (req, res, next) => {
   try {
-    // Example: Send a message
+    if (!req.query.jobId) {
+      throw new Error("Please pass query string ?jobId=jobId");
+    }
 
-    console.log("Message sent");
+    const jobId = Number(req.query.jobId); // Convert jobId to number if necessary
+    const job = await jobStatusCollection.findOne({ jobId });
 
-    // // Close the connection
-    // await connection.close();
-    res.json({ jobId });
+    if (!job) {
+      throw new Error(`No job found with jobId: ${jobId}`);
+    }
+
+    const { status, placeIds } = job;
+    if (status !== "complete") {
+      throw new Error(`Job with jobId: ${jobId} is not complete`);
+    }
+
+    // Fetch summaries for each place
+    const summaries = await Promise.all(
+      placeIds.map(async (placeId) => {
+        const summary = await placesCollection.findOne({ id: placeId });
+        return summary; // Return the summary for each place
+      })
+    );
+
+    return res.send(summaries);
   } catch (error) {
-    next(error);
+    next(error); // Passes the error to the error handling middleware
   }
 });
 
