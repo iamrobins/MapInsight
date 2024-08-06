@@ -12,7 +12,7 @@ dotenv.config({
 });
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 80;
 
 const proxy = httpProxy.createProxyServer({
   target: process.env.NOTIFICATION_SERVICE_URI,
@@ -54,12 +54,14 @@ app.get("/v1/summaries", async (req, res, next) => {
     if (!req.query.jobId) {
       throw new Error("Please pass query string ?jobId=jobId");
     }
-
     const response = await fetch(
       `${process.env.SEARCH_SERVICE_URI}/summaries/?jobId=${req.query.jobId}`
     );
     const data = await response.json();
     res.json(data);
+    console.log(
+      `${process.env.SEARCH_SERVICE_URI}/summaries/?jobId=${req.query.jobId}`
+    );
   } catch (err) {
     res.json(err);
   }
