@@ -94,6 +94,9 @@ const extractPlaces = (places) =>
 
 app.get("/search", async (req, res, next) => {
   if (process.env.NODE_ENV != "production") {
+    if (!req.query.text)
+      throw new Error("Please pass query string ?text=placename");
+
     const jobId = 1;
     const placesDev = extractPlaces(sampleData);
 
