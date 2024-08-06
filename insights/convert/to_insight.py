@@ -89,19 +89,7 @@ def summarize_reviews(place_details):
 
     # Extract the summary from the response
     summary = response.choices[0].message.content.strip()
-
-    with open('data3.json', 'w') as json_file:
-        json.dump(summary, json_file, indent=4)
     
-    # Prepare the structured summary
-    # structured_summary = {
-    #     "id": place_details.get("id"),
-    #     "placeName": place_details.get("placeName"),
-    #     "address": place_details.get("address"),
-    #     "rating": place_details.get("rating"),
-    #     "userRatingCount": place_details.get("userRatingCount"),
-    #     "summary": summary
-    # }
     
 
     return summary
