@@ -3,6 +3,9 @@ import http.client
 from openai import OpenAI
 from pymongo import MongoClient
 from datetime import datetime
+
+from .parser import parse_review_summary
+
 client = MongoClient(os.getenv("MONGO_URI"))
 
 # Access the database
@@ -38,8 +41,10 @@ def summarize_reviews(place_details):
     Summarize reviews using the OpenAI GPT API.
     """
     if os.getenv('ENVIRONMENT') == "development":
-        return "**Summary for Sticks'n'Sushi Covent Garden**\n\n**Key Positive Points:**\n- High-quality food with fresh and flavorful ingredients.\n- Sushi platter is beautifully presented and well-received by customers.\n- The sticks, particularly the duck, are highlighted as exceptionally tasty.\n- Some customers praised the service as fantastic, particularly noting attentive staff who accommodated special dietary needs.\n- Consistent quality in food across different locations, with some new and innovative menu items appreciated.\n\n**Key Negative Points:**\n- Service issues are a common complaint, with many reviews noting inattentive or disengaged staff.\n- Long wait times for order taking, refills, and bill processing.\n- Some customers found the sushi to be average and not as impressive as expected.\n- High prices are mentioned, with desserts described as average and not worth trying.\n\n**Overall Impression:**\nSticks'n'Sushi Covent Garden offers excellent food with fresh and flavorful options, particularly praised for their sushi and sticks. However, the location struggles with service consistency, leading to a mixed dining experience. While some guests enjoy attentive service and innovative dishes, others report significant service lapses that detract from the overall experience. The location may appeal to those prioritizing food quality but could disappoint those seeking attentive service."
-
+        
+        parsed_summary = parse_review_summary("**Summary for Sticks'n'Sushi Covent Garden**\n\n**Key Positive Points:**\n- High-quality food with fresh and flavorful ingredients.\n- Sushi platter is beautifully presented and well-received by customers.\n- The sticks, particularly the duck, are highlighted as exceptionally tasty.\n- Some customers praised the service as fantastic, particularly noting attentive staff who accommodated special dietary needs.\n- Consistent quality in food across different locations, with some new and innovative menu items appreciated.\n\n**Key Negative Points:**\n- Service issues are a common complaint, with many reviews noting inattentive or disengaged staff.\n- Long wait times for order taking, refills, and bill processing.\n- Some customers found the sushi to be average and not as impressive as expected.\n- High prices are mentioned, with desserts described as average and not worth trying.\n\n**Overall Impression:**\nSticks'n'Sushi Covent Garden offers excellent food with fresh and flavorful options, particularly praised for their sushi and sticks. However, the location struggles with service consistency, leading to a mixed dining experience. While some guests enjoy attentive service and innovative dishes, others report significant service lapses that detract from the overall experience. The location may appeal to those prioritizing food quality but could disappoint those seeking attentive service.")
+        return parsed_summary
+    
     place_name = place_details.get('placeName', 'Unknown Place')
     reviews = place_details.get('reviews', [])
     
@@ -108,7 +113,7 @@ def start(body, ch):
             places_ref_ids.append(place_exists["id"])
         else:
             summary = summarize_reviews(place)
-            place["summary"] = summary
+            place["summary"] = parse_review_summary(summary)
             places_ref_ids.append(place["id"])
             places_collection.insert_one(place)
             summaries.append(summary)
