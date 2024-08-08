@@ -69,28 +69,35 @@ async function connectRabbitMQ() {
 connectRabbitMQ();
 
 const extractPlaces = (places) =>
-  places.map((d) => ({
-    id: d.id,
-    placeName: d.displayName.text,
-    address: d.formattedAddress,
-    location: d.location,
-    phoneNumber: d.internationalPhoneNumber,
-    website: d.websiteUri,
-    gMapsUri: d.googleMapsUri,
-    rating: d.rating,
-    userRatingCount: d.userRatingCount,
-    photos: d.photos
-      .slice(0, 5)
-      .map((p) => ({ name: p.name, heightPx: p.heightPx, widthPx: p.widthPx })),
-    reviews: d.reviews.slice(0, 5).map((r) => ({
-      authorName: r.authorAttribution.displayName,
-      authorPhoto: r.authorAttribution.photoUri,
-      text: r.originalText.text,
-      rating: r.rating,
-      publishTime: r.publishTime,
-      relativePublishTimeDescription: r.relativePublishTimeDescription,
-    })),
-  }));
+  places
+    .filter(
+      (p) =>
+        p.photos && p.photos.length > 0 && p.reviews && p.reviews.length > 0
+    )
+    .map((d) => ({
+      id: d.id,
+      placeName: d.displayName.text,
+      address: d.formattedAddress,
+      location: d.location,
+      phoneNumber: d.internationalPhoneNumber,
+      website: d.websiteUri,
+      gMapsUri: d.googleMapsUri,
+      rating: d.rating,
+      userRatingCount: d.userRatingCount,
+      photos: d.photos.slice(0, 5).map((p) => ({
+        name: p.name,
+        heightPx: p.heightPx,
+        widthPx: p.widthPx,
+      })),
+      reviews: d.reviews.slice(0, 5).map((r) => ({
+        authorName: r.authorAttribution.displayName,
+        authorPhoto: r.authorAttribution.photoUri,
+        text: r.originalText.text,
+        rating: r.rating,
+        publishTime: r.publishTime,
+        relativePublishTimeDescription: r.relativePublishTimeDescription,
+      })),
+    }));
 
 app.get("/search", async (req, res, next) => {
   if (process.env.NODE_ENV != "production") {
