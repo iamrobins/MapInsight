@@ -38,7 +38,7 @@ const url = "https://places.googleapis.com/v1/places:searchText";
 
 async function connectRabbitMQ() {
   try {
-    connection = await amqp.connect("amqp://guest:guest@localhost:5672");
+    connection = await amqp.connect(process.env.RABBIT_MQ_URI);
 
     connection.on("error", (err) => {
       logger.error("RabbitMQ connection error:", err);
@@ -51,23 +51,18 @@ async function connectRabbitMQ() {
 
     channel = await connection.createChannel();
 
-    channel.consume("status", (msg) => {
-      if (msg !== null) {
-        const data = JSON.parse(msg.content);
-        channel.ack(msg);
-      } else {
-        console.log("Consumer cancelled by server");
-      }
+    await channel.assertQueue("insight", {
+      durable: true,
     });
+
+    await connection.createChannel();
   } catch (error) {
     logger.error("Failed to connect to RabbitMQ:", error.message);
     throw error;
   }
 }
-
 // Connect to RabbitMQ
 connectRabbitMQ();
-
 const extractPlaces = (places) =>
   places
     .filter(

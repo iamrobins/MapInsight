@@ -1,0 +1,41 @@
+version: "3.9"
+services:
+  gateway:
+    build:
+      context: ./gateway
+      dockerfile: Dockerfile.dev
+    volumes:
+      - ~/Desktop/map_insight/mapinsight_server/gateway/:/app
+    env_file:
+      - ./gateway/.env.dev
+    ports:
+      - '80:80'
+
+  search:
+    build:
+      context: ./search
+      dockerfile: Dockerfile.dev
+    volumes:
+      - ~/Desktop/map_insight/mapinsight_server/search/:/app
+    env_file:
+      - ./search/.env.dev
+      
+
+  insights:
+    build:
+      context: ./insights
+      dockerfile: Dockerfile.dev
+    volumes:
+      - ~/Desktop/map_insight/mapinsight_server/insights/:/app
+    env_file:
+      - ./insights/.env.dev
+      
+
+  notifications:
+    build:
+      context: ./notifications
+      dockerfile: Dockerfile.dev
+    volumes:
+      - ~/Desktop/map_insight/mapinsight_server/notifications/:/app
+    env_file:
+      - ./notifications/.env.dev

@@ -1,0 +1,99 @@
+version: "3.9"
+services:
+  mongo:
+    image: mongo
+    restart: always
+    network_mode: "host"
+    ports:
+      - '27017:27017'
+    volumes:
+      - ~/Desktop/map_insight/mapinsight_server/mongo/data:/data/db
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: password
+  
+  rabbitmq:
+    image: rabbitmq:3-management-alpine
+    container_name: 'rabbitmq'
+    network_mode: "host"
+    ports:
+      - 5672:5672
+      - 15672:15672
+    volumes:
+      - ~/Desktop/map_insight/mapinsight_server/rabbitmq/data/:/var/lib/rabbitmq/
+      - ~/Desktop/map_insight/mapinsight_server/rabbitmq/log/:/var/log/rabbitmq
+    healthcheck:
+      test: ["CMD", "rabbitmqctl", "status"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+
+  gateway:
+    build:
+      context: ./gateway
+    network_mode: "host"
+    volumes:
+      - ~/Desktop/map_insight/mapinsight_server/gateway/:/app
+    environment:
+      PORT: 80
+      SEARCH_SERVICE_URI: http://search:8000
+      NOTIFICATION_SERVICE_URI: http://notifications:8001
+    depends_on:
+      rabbitmq:
+        condition: service_healthy 
+      
+      
+    ports:
+      - '80:80'
+
+  search:
+    build:
+      context: ./search
+    network_mode: "host"
+    volumes:
+      - ~/Desktop/map_insight/mapinsight_server/search/:/app
+    environment:
+      PORT: 8000
+      MAP_INSIGHT_GCP_KEY: AIzaSyCMcayRBlOcBA6dJZF8lz6EIUR_mb8dWak
+      MONGO_URI: mongodb+srv://admin:tDzCKrymbrltfyFd@mapinsight-dev.aztga.mongodb.net/?retryWrites=true&w=majority&appName=mapinsight-dev
+      RABBIT_MQ_URI: amqps://vgaivrln:G3OztnWg3ZIQNvh2ziSvmlv7DPMWd73X@rattlesnake.rmq.cloudamqp.com/vgaivrln
+    ports:
+      - '8000:8000'
+    depends_on:
+      rabbitmq:
+        condition: service_healthy 
+      
+
+  insights:
+    build:
+      context: ./insights
+    network_mode: "host"
+    volumes:
+      - ~/Desktop/map_insight/mapinsight_server/insights/:/app
+    environment:
+      NOTIFICATION_URL: http://notifications:8001
+      RABBIT_MQ_URI: amqps://vgaivrln:G3OztnWg3ZIQNvh2ziSvmlv7DPMWd73X@rattlesnake.rmq.cloudamqp.com/vgaivrln
+      OPENAI_API_KEY: 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
+      MONGO_URI: mongodb+srv://admin:tDzCKrymbrltfyFd@mapinsight-dev.aztga.mongodb.net/?retryWrites=true&w=majority&appName=mapinsight-dev
+    depends_on:
+      rabbitmq:
+        condition: service_healthy 
+      
+
+  notifications:
+    build:
+      context: ./notifications
+    network_mode: "host"
+    volumes:
+      - ~/Desktop/map_insight/mapinsight_server/notifications/:/app
+    environment:
+      PORT: 8001
+      RABBIT_MQ_URI: amqps://vgaivrln:G3OztnWg3ZIQNvh2ziSvmlv7DPMWd73X@rattlesnake.rmq.cloudamqp.com/vgaivrln 
+    depends_on:
+      rabbitmq:
+        condition: service_healthy 
+      
+
+    ports:
+      - '8001:8001'

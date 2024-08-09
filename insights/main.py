@@ -9,7 +9,7 @@ load_dotenv(dotenv_path=ENV_FILE)
 from convert import to_insight
 
 def main():
-    params = pika.URLParameters(os.getenv('RABBIT_MQ'))
+    params = pika.URLParameters(os.getenv('RABBIT_MQ_URI'))
     params.socket_timeout = 5
     connection = pika.BlockingConnection(params)
     channel = connection.channel()
