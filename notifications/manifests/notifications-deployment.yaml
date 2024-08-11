@@ -1,0 +1,28 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: notifications
+  labels:
+    app: notifications
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: notification
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxSurge: 2
+  template:
+    metadata:
+      labels:
+        app: notification
+    spec:
+      containers:
+        - name: notifications
+          image: iamrobins/mapinsight_server-notifications
+          envFrom:
+            - configMapRef:
+                name: notifications-configmap
+            - secretRef:
+                name: notifications-secret

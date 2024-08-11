@@ -1,0 +1,28 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: insights
+  labels:
+    app: insights
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: insights
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxSurge: 4
+  template:
+    metadata:
+      labels:
+        app: insights
+    spec:
+      containers:
+        - name: insights
+          image: iamrobins/mapinsight_server-insights:latest
+          envFrom:
+            - configMapRef:
+                name: insights-configmap
+            - secretRef:
+                name: insights-secret

@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: gateway-configmap
+data:
+  PORT: "80"
+  SEARCH_SERVICE_URI: "search:8000"
+  NOTIFICATION_SERVICE_URI: "notifications:8001"

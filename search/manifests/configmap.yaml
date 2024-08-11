@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: search-configmap
+data:
+  INSIGHT_QUEUE: "insight"
+  PORT: "8000"

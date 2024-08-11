@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: insights-configmap
+data:
+  INSIGHT_QUEUE: "insight"
+  NOTIFICATION_URL: "notifications:8001"
