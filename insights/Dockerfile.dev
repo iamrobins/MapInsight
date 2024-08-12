@@ -16,10 +16,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copy the entire application code
 COPY . .
 
-# Expose the port your application will run on
-EXPOSE 8080
+ENV ENVIRONMENT=development
 
-RUN chmod +x ./run.sh
-
-# Specify the command to run on container start
-CMD ["./run.sh", "start"]
+CMD ["python", "main.py"]

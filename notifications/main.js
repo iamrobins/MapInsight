@@ -67,7 +67,7 @@ app.post("/update-status", (req, res) => {
       clients.delete(jobId);
       console.log(`Closed connection and removed client for jobId: ${jobId}`);
     }
-    res.send(`Status for jobId ${jobId} updated successfully.`);
+    res.status(200).send(`Status for jobId ${jobId} updated successfully.`);
   } else {
     console.error(`No client connected with jobId: ${jobId}`);
     res.status(404).send(`No client connected with jobId: ${jobId}`);

@@ -21,7 +21,8 @@ const proxy = httpProxy.createProxyServer({
 const server = require("http").createServer(app);
 
 app.use(cors());
-app.set("trust proxy", true);
+// app.set("trust proxy", 1); If one proxy is used.
+app.set("trust proxy", "loopback");
 app.use(express.json({ limit: "50mb" }));
 
 const limiter = rateLimit({

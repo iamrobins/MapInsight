@@ -55,9 +55,9 @@ services:
       - ~/Desktop/map_insight/mapinsight_server/search/:/app
     environment:
       PORT: 8000
-      MAP_INSIGHT_GCP_KEY: AIzaSyCMcayRBlOcBA6dJZF8lz6EIUR_mb8dWak
-      MONGO_URI: mongodb+srv://admin:tDzCKrymbrltfyFd@mapinsight-dev.aztga.mongodb.net/?retryWrites=true&w=majority&appName=mapinsight-dev
-      RABBIT_MQ_URI: amqps://vgaivrln:G3OztnWg3ZIQNvh2ziSvmlv7DPMWd73X@rattlesnake.rmq.cloudamqp.com/vgaivrln
+      MAP_INSIGHT_GCP_KEY: ''
+      MONGO_URI: ''
+      RABBIT_MQ_URI: ''
     ports:
       - '8000:8000'
     depends_on:
@@ -73,9 +73,9 @@ services:
       - ~/Desktop/map_insight/mapinsight_server/insights/:/app
     environment:
       NOTIFICATION_URL: http://notifications:8001
-      RABBIT_MQ_URI: amqps://vgaivrln:G3OztnWg3ZIQNvh2ziSvmlv7DPMWd73X@rattlesnake.rmq.cloudamqp.com/vgaivrln
-      OPENAI_API_KEY: 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
-      MONGO_URI: mongodb+srv://admin:tDzCKrymbrltfyFd@mapinsight-dev.aztga.mongodb.net/?retryWrites=true&w=majority&appName=mapinsight-dev
+      RABBIT_MQ_URI: ''
+      OPENAI_API_KEY: ''
+      MONGO_URI: ''
     depends_on:
       rabbitmq:
         condition: service_healthy 

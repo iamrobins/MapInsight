@@ -1,10 +1,12 @@
 import json, os, time
-import http.client
+import requests
 from openai import OpenAI
 from pymongo import MongoClient
 from datetime import datetime
 
 from .parser import parse_review_summary
+
+print("THE ENVIRONMENT IS", os.getenv('ENVIRONMENT'))
 
 client = MongoClient(os.getenv("MONGO_URI"))
 
@@ -105,6 +107,8 @@ def start(body, ch):
     summaries = []
     places_ref_ids = []
 
+    print(data)
+
     for place in places:
         place_exists = places_collection.find_one({"id": place["id"]})
         if place_exists:
@@ -113,7 +117,7 @@ def start(body, ch):
             places_ref_ids.append(place_exists["id"])
         else:
             summary = summarize_reviews(place)
-            place["summary"] = parse_review_summary(summary)
+            place["summary"] = parse_review_summary(json.dumps(summary))
             places_ref_ids.append(place["id"])
             places_collection.insert_one(place)
             summaries.append(summary)
@@ -127,35 +131,28 @@ def start(body, ch):
     
     job_status_collection.insert_one(job_status_doc)
 
-    url = os.getenv("NOTIFICATION_URL")
-    endpoint = "/update-status"
-    payload = json.dumps({
+    url = "http://notifications:8001/update-status"
+    payload = {
         "jobId": data["jobId"],
         "status": "complete",
         "places": places_ref_ids
-    })
+    }
     headers = {
         "Content-Type": "application/json"
     }
 
-    conn = http.client.HTTPConnection(url)
-    
     max_retries = 5
     retry_interval = 1  # Start with 1 second
-    
+
     for attempt in range(max_retries):
         try:
-            conn.request("POST", endpoint, payload, headers)
-            response = conn.getresponse()
-            if response.status != 200:
-                raise Exception(f"HTTP error: {response.status} {response.reason}")
-            response_data = response.read().decode()
+            response = requests.post(url, headers=headers, json=payload)
+            if response.status_code != 200:
+                raise Exception(f"HTTP error: {response.status_code} {response.reason}")
+            response_data = response.json()
             print(f"Response: {response_data}")
-            if response.status == 200:
-                break
+            break
         except Exception as e:
             print(f"Request failed: {e}. Attempt {attempt + 1} of {max_retries}.")
             time.sleep(retry_interval)
             retry_interval *= 2  # Exponential backoff
-        finally:
-            conn.close()
