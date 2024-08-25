@@ -1,0 +1,418 @@
+{
+    "places": [
+      {
+        "id": "ChIJP1Z1gkQFdkgRsyjCnpNoYsM",
+        "placeName": "Ognisko Restaurant",
+        "address": "55 Exhibition Rd, London SW7 2PG, UK",
+        "location": {
+          "latitude": 51.4991011,
+          "longitude": -0.1739026
+        },
+        "phoneNumber": "+44 20 7589 0101",
+        "website": "http://www.ogniskorestaurant.co.uk/",
+        "gMapsUri": "https://maps.google.com/?cid=14078930368346597555",
+        "rating": 4.7,
+        "userRatingCount": 2016,
+        "photos": [
+          {
+            "name": "places/ChIJP1Z1gkQFdkgRsyjCnpNoYsM/photos/AXCi2Q74JWoZFM_1NCga4qhBjwcqFXy7ywljDm9zkXj8IyF5FfN3LEUBRYNa0AtGhER0JaIYVFsRTmRrlwBHQgHvslAu1Ezy7UF5hUeDizYqZblKEHYlP1hf3GfLDGxUiXWQttCHV32-QUPxW85dxsUG35YaSYqI6cVsna8L",
+            "heightPx": 799,
+            "widthPx": 1200
+          },
+          {
+            "name": "places/ChIJP1Z1gkQFdkgRsyjCnpNoYsM/photos/AXCi2Q6kAK-YIStLoxefM6l6ttJkb-cLe7NyIGzh-B475Mw8WgNnvHIARydNe_029PxQ5_XzQahi2PWUXVTIdTk215u_BrqmaurRfF0UoA4DbWJwo3caBQ0rUHOiQ_Tb6sVxxTRsYx3Ec27ytPIgBTd49TMYjuG3VRpmrvjx",
+            "heightPx": 2040,
+            "widthPx": 1530
+          },
+          {
+            "name": "places/ChIJP1Z1gkQFdkgRsyjCnpNoYsM/photos/AXCi2Q7zIvCOoBaSwtxqvgmZYfN-ziwFTUl8h9K3FjN1ZmXZS9Ibn8cj9kbsr0cA5Bv1kJBIL-yMaF4gFcy3JvX3Y7Id-kPieIqUD2Zh4I-FA6Dot7Teq01s4UpI5DwUow5bsGCnBskyPcCtpqwV9o-YwJbiwxXYprH0CjSG",
+            "heightPx": 3204,
+            "widthPx": 4800
+          },
+          {
+            "name": "places/ChIJP1Z1gkQFdkgRsyjCnpNoYsM/photos/AXCi2Q7VDHIfAa1KU0EElOUF_LtXOfRPOhpIvVFM3VL8k8r42lq4nCylrQCLx2lCrlY_RRIi-YMAMklF7eHPpRAbpse1cdCVOXSxk6C9q9GaTVpMJtTCZrMEYx6EUWpHImlQdatl4YPPghJ8ahSUavctUHCP96xtkGPhrfr2",
+            "heightPx": 3456,
+            "widthPx": 3456
+          },
+          {
+            "name": "places/ChIJP1Z1gkQFdkgRsyjCnpNoYsM/photos/AXCi2Q7IQLRz455E4fwKXMeTiPFzlzQsPMv5h5etJx0n1HZYWDoiiGzEytaVqCguf3_-EvX2LjnwXnqBONQTDp6gPs9glp-9SvJ6RWtyi2eBVnefqoDhQZFVDz015z2aEWTI6fkr67UCEA-aC786qveeKT7hdpDF2vL1SAfU",
+            "heightPx": 3008,
+            "widthPx": 4000
+          }
+        ],
+        "reviews": [
+          {
+            "authorName": "bev747sp",
+            "authorPhoto": "https://lh3.googleusercontent.com/a/ACg8ocJWtLyJ28LlSvINKNog5Q6XUHmuv33znG20U56jGPVCdc0LSg=s128-c0x00000000-cc-rp-mo-ba3",
+            "text": "Had lunch with 4 friends last Friday. We had Polish vodka based cocktails (very strong but delicious!)\nWe ordered the set lunch menu 2 courses £24 or 3 courses £29.\n\nIt was all very delicious and filling.\nI recommend the Seabream from the set lunch menu, but my friends had chicken Kiev & and Schnitzel, which were equally delicious.\n\nBeautiful classy decor and ambience throughout. Excellent customer service from all the attentive staff!\n\nThere's also a covered terrace outside overlooking the park.\nLovely treat, and I will definitely visit again..",
+            "rating": 5,
+            "publishTime": "2024-07-30T16:54:18Z",
+            "relativePublishTimeDescription": "3 weeks ago"
+          },
+          {
+            "authorName": "Shaun Allen",
+            "authorPhoto": "https://lh3.googleusercontent.com/a/ACg8ocJ1g497ZcXWkrOQ3tFYmaBPfruQXnUiu8IRHyV8loqllfhHow=s128-c0x00000000-cc-rp-mo",
+            "text": "We were in London for over a week and this was one of the best (if not the best) meals we had on our trip. Every dish was fantastic. The cocktails also exceeded expectations!\n\nIt was a bit more formal inside than I was expecting, felt a tad bit underdressed. Would recommend at least a collared shirt.",
+            "rating": 5,
+            "publishTime": "2024-07-09T21:51:47Z",
+            "relativePublishTimeDescription": "a month ago"
+          },
+          {
+            "authorName": "Alexander Berrisford",
+            "authorPhoto": "https://lh3.googleusercontent.com/a-/ALV-UjVHpi-xioe9QBju88Um42aAwLwTiezhgUU-LaTeAmHePRLhY1_JZg=s128-c0x00000000-cc-rp-mo-ba4",
+            "text": "Easily one of the best restaurants in London. Stunning ambience, delicious food and overall a truly authentic Polish experience. Highly recommend!",
+            "rating": 5,
+            "publishTime": "2024-08-17T19:28:37Z",
+            "relativePublishTimeDescription": "a week ago"
+          },
+          {
+            "authorName": "Alison",
+            "authorPhoto": "https://lh3.googleusercontent.com/a/ACg8ocJMEI9dnLlBfD9eNKMmCvcjbEBG5EJTQ_R_3gabjEA2FNDD3Q=s128-c0x00000000-cc-rp-mo",
+            "text": "Decided to try out this restaurant for dinner after reading good things online. I ordered the roast cod and a lemonade at the server’s recommendation. Both were very delicious. Really wished I planned my earlier snacking better that day, as I would have liked to have the space to also try a dessert. (Maybe next time.)\n\nI would recommend making a reservation, as I saw they had a full house on a week day evening and were turning away walk-ins.",
+            "rating": 5,
+            "publishTime": "2024-05-24T14:55:02Z",
+            "relativePublishTimeDescription": "3 months ago"
+          },
+          {
+            "authorName": "Roman Khomchuk",
+            "authorPhoto": "https://lh3.googleusercontent.com/a-/ALV-UjVUBQHVmkYmRMGtK7r1ckzdBb0gZHFry9b_-ZlRwzktBtjL1f6W=s128-c0x00000000-cc-rp-mo-ba4",
+            "text": "I’ve been to Polish restaurants quite often, but this one is superior to most. Food is amazing, service is excellent. It’s on a pricey side, as everything in London, but you want find anything similar value for money elsewhere. Next time in London coming back for sure.",
+            "rating": 5,
+            "publishTime": "2024-04-30T18:25:53Z",
+            "relativePublishTimeDescription": "3 months ago"
+          }
+        ]
+      },
+      {
+        "id": "ChIJpd62AKIEdkgRL7W8psIphWE",
+        "placeName": "Mamuśka! Polish Kitchen and Bar - Restaurant Southbank",
+        "address": "9 Addington St, London SE1 7RY, UK",
+        "location": {
+          "latitude": 51.5010853,
+          "longitude": -0.1155677
+        },
+        "phoneNumber": "+44 20 3602 1898",
+        "website": "https://mamuska.net/?utm_source=GMB&utm_medium=website%20click&utm_campaign=SDM&utm_id=GMB",
+        "gMapsUri": "https://maps.google.com/?cid=7027068709579306287",
+        "rating": 4.3,
+        "userRatingCount": 3855,
+        "photos": [
+          {
+            "name": "places/ChIJpd62AKIEdkgRL7W8psIphWE/photos/AXCi2Q7zpxfWO97v8-VjTjzLfseFalHERfGueg1hi_Uo9rWYgG2afdERW767VkZyWyfB5NNSAyz79lC51Lwg_gUK1u9CXUD6rFSu88v336tq0pJNFU2GGqPu9pZShQSuVTUJxOs6NNZ4Wk2ZmtTATj3GA-lpebbcka2Omli5",
+            "heightPx": 2599,
+            "widthPx": 3741
+          },
+          {
+            "name": "places/ChIJpd62AKIEdkgRL7W8psIphWE/photos/AXCi2Q6kT0MZWnY_EsP4HKH-lwGAhO2XHTycxnSC-1zUjyC2RPNbROgzHSgdkfgZvaX2EAJJHwJ8SlrsyUbfXymQtFu7F26QQIR9oeIvHiL-qp-IABPoBiTPMVzrTV9nUQopESKpz6_9i9ks3TYROrY7ddUS5zBth90rXZeU",
+            "heightPx": 1200,
+            "widthPx": 2133
+          },
+          {
+            "name": "places/ChIJpd62AKIEdkgRL7W8psIphWE/photos/AXCi2Q6p8bLQA1_7YxXghedDu0zKn1VaK4ZxNEN_3e7IyWvM84WganTiXe1RuVNn99J4EiRchcw9ck4WJe86FFIOvFEUX85JAhE-rUD0FS4R26X6Y3lgUg-USFMaTURRbYfVgOn0-b7whkfZ066XuOCUQk8cQzEu9w4GuiJx",
+            "heightPx": 3600,
+            "widthPx": 4800
+          },
+          {
+            "name": "places/ChIJpd62AKIEdkgRL7W8psIphWE/photos/AXCi2Q6ziqshoP6Z4SDOcRRe3FDYnsLcqXiG_Fyqc7DJU5qYXtkmBcohEAAcGN3DbB48-27XgRb_kZaB9QXkA_pkxwlLC65WB64pFNFpCfXYLtQhGC98s4NTZLqUMUiH0Ta_Da3NvCNrMd6Bn9t06037e9BGCe9BJDXREaw",
+            "heightPx": 3000,
+            "widthPx": 4000
+          },
+          {
+            "name": "places/ChIJpd62AKIEdkgRL7W8psIphWE/photos/AXCi2Q6M6WnUE0BtEz0Vy_-ANIFOcJkVNu905jI0aIc2Wlwdm0mVLCM4yEGAT4g2AZ0lXpppDeqm6okXQC2XO5A3jWHmiUP61GncN3o05eBeK0EWyHthPzAg9qgXfGAOXrP8UKBhuUpbQ9_Jf3-eLZDEMV1WAoENqS-oj3hL",
+            "heightPx": 2252,
+            "widthPx": 4000
+          }
+        ],
+        "reviews": [
+          {
+            "authorName": "George Stelljes",
+            "authorPhoto": "https://lh3.googleusercontent.com/a-/ALV-UjXe7sLYjXIRpfl_Nlo1OB1IfqOCt0JOgWvAs9Epcvq50PRGPOZH=s128-c0x00000000-cc-rp-mo-ba4",
+            "text": "You walk into a great Polish atmosphere and are greeted by a very friendly staff.  You can see the food being prepared as you walk towards the dining area.  Our server, Marzena was very helpful and did a great job.  My wife ordered the Plackie Ziemniaczane topped with Vegan Stew and loved it.  The serving was very tasty and generous.  I ordered the Schabowy Tower and enjoyed every bite.  The mashed potatoes were freshly made and my cutlet was outstanding.  We also ordered a sampling of the five dumplings which were outstanding.  It was a wonderful way to start our European vacation.  We enjoyed our first meal there so much, that we went back with some friends who live in London.  Once again the food and service was top notch.  We were able to enjoy great conversation to go along with great food and drink.  The staff did not rush us as enjoyed our quality time together.",
+            "rating": 5,
+            "publishTime": "2024-06-14T06:21:04Z",
+            "relativePublishTimeDescription": "2 months ago"
+          },
+          {
+            "authorName": "Brad Hardman",
+            "authorPhoto": "https://lh3.googleusercontent.com/a-/ALV-UjWXCQRCd_Bh104dJtSLGD5O6w5Jo2Pegi_nXVPEg29sTyhJrKrq=s128-c0x00000000-cc-rp-mo-ba4",
+            "text": "Decent polish food underneath Waterloo station, the perogies were nice with onion, bacon and sour cream. My main dish was nice and being able to grab some pickles and cabbage from the salad bar included was nice, but the salad bar isn't extensive",
+            "rating": 4,
+            "publishTime": "2024-07-27T23:58:04Z",
+            "relativePublishTimeDescription": "4 weeks ago"
+          },
+          {
+            "authorName": "Kirsten Buniak",
+            "authorPhoto": "https://lh3.googleusercontent.com/a-/ALV-UjU1DplNRscnGKAA4h2GiSXcZx35D5mNYpNQWoAbVUw_-fYy9HFG=s128-c0x00000000-cc-rp-mo-ba4",
+            "text": "I was craving traditional Slavic food, especially since I miss my grandma's Ukrainian cooking, and I can confidently say that this fulfilled all I was needing! Everything was so flavorful and filling, and the portions were just the correct amount. The staff was super friendly and the atmosphere was super cool! I loved the lighting, it was so fun. Definitely recommend this place.",
+            "rating": 5,
+            "publishTime": "2024-05-17T21:28:43Z",
+            "relativePublishTimeDescription": "3 months ago"
+          },
+          {
+            "authorName": "Cristina Conde",
+            "authorPhoto": "https://lh3.googleusercontent.com/a/ACg8ocLcX2UxScwniINkxAQKG_h68jQrDrzx39q6C2hcLoPZDFYtqU4=s128-c0x00000000-cc-rp-mo-ba4",
+            "text": "A decent restaurant in Waterloo. The portion sizes are generous but the food was quite average. There is a salad bar, which is included with main meals, and was nice. The pierogi were tasty but the vegan option for mains was not great. I wouldn’t recommend it (and the mash potato wasn’t particularly good either). Friendly servers and interesting venue.",
+            "rating": 3,
+            "publishTime": "2024-05-22T22:28:35Z",
+            "relativePublishTimeDescription": "3 months ago"
+          },
+          {
+            "authorName": "Hannah Sierp",
+            "authorPhoto": "https://lh3.googleusercontent.com/a-/ALV-UjUKU25aAj-xtRoy-RE52BUxtvbkOLEZ0fz-FzY7lRIb78dCbf5n=s128-c0x00000000-cc-rp-mo-ba6",
+            "text": "A relaxed atmosphere with friendly service. I really enjoyed my fried Pierogi Ukraińskie with onions and sour cream and a small bowl of the soup of the day (which was mushroom). Nice comfort food on a rainy day. Good value. Would come back for sure.",
+            "rating": 5,
+            "publishTime": "2024-03-28T20:37:16Z",
+            "relativePublishTimeDescription": "4 months ago"
+          }
+        ]
+      },
+      {
+        "id": "ChIJV7bvh0IFdkgRzeiuME454T8",
+        "placeName": "Daquise",
+        "address": "20 Thurloe St, South Kensington, London SW7 2LT, UK",
+        "location": {
+          "latitude": 51.4944341,
+          "longitude": -0.17341189999999998
+        },
+        "phoneNumber": "+44 20 7589 6117",
+        "website": "http://daquise.co.uk/",
+        "gMapsUri": "https://maps.google.com/?cid=4603023302136359117",
+        "rating": 4.4,
+        "userRatingCount": 1205,
+        "photos": [
+          {
+            "name": "places/ChIJV7bvh0IFdkgRzeiuME454T8/photos/AXCi2Q4fL-ZUQHSmQOcUP70Ih_zSKCa4bkI194SjnOzIXFrrwWKItFfD03bVgxg4SLGL0wgfN9gb3OlOLxR6mODTjUP_39ccML10PGI1aFwS96B3vua0JbNNP4sovxERa5CFcfQJ2AoPO4P91vKTFYcBNVN7oIyN35BWgF09",
+            "heightPx": 4446,
+            "widthPx": 3557
+          },
+          {
+            "name": "places/ChIJV7bvh0IFdkgRzeiuME454T8/photos/AXCi2Q4WHjk5jxYkIVPKuMKx3IavWbNwL5pFAXxy09N4pqL3L8qiVHJHVxKYX7hvBssQjNZUgejU5DhAlVL_6vkq3fN3poz7rqq_e8qHzANomjvV1qDM9NZtv6Vf7LGXN3h3Ip9PzY3yBqo9_hwHuYVsSYe6RksOAGy2EcaN",
+            "heightPx": 4032,
+            "widthPx": 3024
+          },
+          {
+            "name": "places/ChIJV7bvh0IFdkgRzeiuME454T8/photos/AXCi2Q6T4wWq3GZsVDqEHARTGdDp_JYYBzHhUYWyj3zrKki7TBxEAAs0Ras1_DYUjVwnFnrDrYSUXkOw6fA36FAvTB_PbgEcR-3VuljtktscoIw_OeLRqhoPGG-05rDyfX3pf8REQCgHVpsfS_i4VOLuhJIres5QkYPMtF5L",
+            "heightPx": 4080,
+            "widthPx": 3072
+          },
+          {
+            "name": "places/ChIJV7bvh0IFdkgRzeiuME454T8/photos/AXCi2Q5fQLrXdpSzqvxOg9uuZVb7PU-rft-wTRB2KnXJr1U0R9QQZ7SRMsT50rvQvV7hY_ygASP7CnJSp-Mm0Hx_TV6lR_htmdQTJvQqiRnn-GpQHDmLbqJs9PwSglfDZYwT_Hk16UtCwNt3hw-Mkvf8TuP7PPR_B7u5Sozf",
+            "heightPx": 4800,
+            "widthPx": 3600
+          },
+          {
+            "name": "places/ChIJV7bvh0IFdkgRzeiuME454T8/photos/AXCi2Q6MY419YyWvhvScBWm2ZICZ7zsALnjkyhHLmK-hwuOobL5JedcmwH6Y5XasezTjW0diAhoaA3vAIT4aFIk6V2RYwW16ozy7z2eIekDRwKMvcZn8K_Tk2TlFKW2PxA88GwPiUVObcQKc3G_OxNdE6CxnlIRlO9nxnqzk",
+            "heightPx": 2048,
+            "widthPx": 1536
+          }
+        ],
+        "reviews": [
+          {
+            "authorName": "Claudia Carbone",
+            "authorPhoto": "https://lh3.googleusercontent.com/a/ACg8ocKh81isa0rmJaKgUyVbaZWzy7uVQp598kazJSvdyc58xzvsng=s128-c0x00000000-cc-rp-mo-ba3",
+            "text": "A Polish friend suggested this restaurant and we didn’t regret. Great dinner overall. The dumplings as starters are a must, loved them, especially the one with meat and the other with mushrooms. Also the rabbit as main was good. The pork was a bit too small compared to the rabbit portion.\nOverall happy with the food and service. The waitress kindly offered four shots of cherry vodka.",
+            "rating": 4,
+            "publishTime": "2024-06-02T09:11:04Z",
+            "relativePublishTimeDescription": "2 months ago"
+          },
+          {
+            "authorName": "Will Pearson",
+            "authorPhoto": "https://lh3.googleusercontent.com/a-/ALV-UjX4E5oxR_m48Ea1BAREsTjFyZ7TGcjBuwwE3ep2wKPQBO9G6w5E=s128-c0x00000000-cc-rp-mo",
+            "text": "We went for a late lunch on Saturday and had the best time.\n\nThe restaurant is beautiful inside and has a distinct charm, like a place frozen in time.\n\nThe food was delicious. We had the dumplings and salmon starters, pork and veal meatballs for main and a cheesecake for desert. Absolutely everything was perfect and the dumplings were so good we ordered more!\n\nService was perfect, everyone was very friendly and attentive; topping up wine and water without us having to ask. They even threw in some free vodka shots at the end!\n\nVery much recommend to anyone and we’ll certainly be going back!",
+            "rating": 5,
+            "publishTime": "2024-07-14T08:56:15Z",
+            "relativePublishTimeDescription": "a month ago"
+          },
+          {
+            "authorName": "L Tyler",
+            "authorPhoto": "https://lh3.googleusercontent.com/a/ACg8ocISeA1jGB1NXqpLDurO6WMTF-6zzzq_rNbRwAVU3xNKHXk7rw=s128-c0x00000000-cc-rp-mo-ba2",
+            "text": "A great meal. I'd love to go back and explore the menu thoroughly, but it's a little pricey for what you get. Great service and atmosphere.\n\nAll 3 types of dumplings were tasty but especially the cabbage and mushroom. Chicken soup was cracking.\nVeal escalopes cooked a touch more than I would like but with a great sauce, cod was tasty and well cooked but the raw spinach served with it is not particularly exciting. The fish doesn't come with anything else, and I felt both mains could have used another little something on the plate (veg or carbs respectively).\nThe cheese pancake was wonderful and generous (other desserts looked substantial too) and reminiscent of the Topfen that appears in Austrian sweets. Good quality homely food, cooked well.\nService was high quality but not aloof and honestly in terms of atmosphere, Daquise is absolutely how a restaurant should be - filled with conversation but not crowded, classy but not austere, and homely without feeling dingy. Thank you for the lovely lunch.",
+            "rating": 4,
+            "publishTime": "2024-07-06T22:50:57Z",
+            "relativePublishTimeDescription": "a month ago"
+          },
+          {
+            "authorName": "Chris L C",
+            "authorPhoto": "https://lh3.googleusercontent.com/a-/ALV-UjWtrNSSfz64SS7Kc9hhNH7EyrV-vo5H3gw2oIUKtPf9Rthtyhe9=s128-c0x00000000-cc-rp-mo-ba4",
+            "text": "Food: It was my first time trying Polish food and we got the venison goulash and the cod as our mains and the latter was better than the former. My friend felt that the cod was a bit dry and I felt that there were some tough bits to the venison but overall they were good. For desserts, we ended up getting the fruit dumplings and the pancakes and the pancakes were the best part of the meal.\n\nService: Really good, we felt that the waitress that served our table was really attentive and from what I noticed, this was a positive experience for other diners as well.\n\nAtmosphere: People looked like they were having a lot of fun there but granted the tight spaces for all of the tables does dampen it a little.",
+            "rating": 3,
+            "publishTime": "2024-03-12T20:21:46Z",
+            "relativePublishTimeDescription": "5 months ago"
+          },
+          {
+            "authorName": "Dr Bob Wongti",
+            "authorPhoto": "https://lh3.googleusercontent.com/a-/ALV-UjWEdMQ-JpjEkU5txyUvZApiUk6hfkFOAuqAAH6cf9f8oSTnYPkn=s128-c0x00000000-cc-rp-mo-ba6",
+            "text": "Lived nearby this place and the first time with Polish food. Freshly prepared and good portion with lots of meat inside.  Good decoration and very supportive staff. Excellent. ⭐️⭐️⭐️⭐️",
+            "rating": 4,
+            "publishTime": "2024-07-15T10:11:32Z",
+            "relativePublishTimeDescription": "a month ago"
+          }
+        ]
+      },
+      {
+        "id": "ChIJKSKz0v4bdkgRAqCNPA_kyuE",
+        "placeName": "Folk House Zakopane",
+        "address": "77 Westbury Ave, London N22 6SA, UK",
+        "location": {
+          "latitude": 51.5938361,
+          "longitude": -0.0977417
+        },
+        "phoneNumber": "+44 20 3345 6774",
+        "gMapsUri": "https://maps.google.com/?cid=16270067357920894978",
+        "rating": 4.6,
+        "userRatingCount": 691,
+        "photos": [
+          {
+            "name": "places/ChIJKSKz0v4bdkgRAqCNPA_kyuE/photos/AXCi2Q4Gi2R7iMlZlbBSdCSh6aJ-UAVnnlQqSYlrtf7CK2zhgXUBaRqZbV4XQedNq9kCrORQADfwrQtgNNSsZi2NKDc2zrRqfPFHTBk0NAUBUVkGlAa03cjWI9Ta86urkMPydGz-6hINAFfgwhRRjafWHw8DT1bgR24uo3ad",
+            "heightPx": 4032,
+            "widthPx": 3024
+          },
+          {
+            "name": "places/ChIJKSKz0v4bdkgRAqCNPA_kyuE/photos/AXCi2Q7RSY9Lo5HB2qTE4heKL7xXWwkSHta9Z44ESXj_pf5XXKuwm1K6mYH45t9Bgq4bUaK2ZLKZeSqPE6nMBYshqEXNljDY4SOy1MQzbktnxZ3yjilcwUBei98rCZBoWGzpUu6Z0tfUjoJ1jaE2Wa6OlsnArW0FWEs-DGH-",
+            "heightPx": 800,
+            "widthPx": 1200
+          },
+          {
+            "name": "places/ChIJKSKz0v4bdkgRAqCNPA_kyuE/photos/AXCi2Q4I1B9fSOp-rJTknhIOR-fbZxlAyZlgorMRhPKfZFxMFtQKoDqtcdLZhT0jkQYgPBAX6UgiqBNi6ZOfMcb0eQ2HexDS6jbD68A0WTccku2OUNVeDKPsY6AJUvsvNpgIEGOZrffRv0dxy_Up7ai9fUdjE_rJH0RdPips",
+            "heightPx": 3024,
+            "widthPx": 4032
+          },
+          {
+            "name": "places/ChIJKSKz0v4bdkgRAqCNPA_kyuE/photos/AXCi2Q7EYYdiVN6qZ6wR9iHy4_LAPOpg2ImWlc6fDY38xFr8v23ORyY5IgC0XlH6yTvxz53ii_uQDrN7c9LpuUxPgglESHXqAF1iPMroupv0GX3Kqaq07H_Hd8yVbI6KdYeaL1agA2qRT_BxHZvcPbVHz6Y3RBkpJUtkcg-w",
+            "heightPx": 4032,
+            "widthPx": 3024
+          },
+          {
+            "name": "places/ChIJKSKz0v4bdkgRAqCNPA_kyuE/photos/AXCi2Q75XJ9O8p49FYlzhEGDPmb62efixXILC7-OrcYRnFtF6C1HDCIV3Z6KKi1S7-AAfJS_XHUoHTmmoqFOYHCySWJ-pgZOilEFkUMclMB0geM7F_yPb_cXQUIjHzzOAGJHDroAudqd8IrJdHmHkpCE663jql-ZMQzIDnLq",
+            "heightPx": 3024,
+            "widthPx": 4032
+          }
+        ],
+        "reviews": [
+          {
+            "authorName": "Sylvia Dobek",
+            "authorPhoto": "https://lh3.googleusercontent.com/a-/ALV-UjVhOpu1RjPoViaz6jVSiG9Xuy_nan8XQMebVGWFWHRlz_PUrvCO=s128-c0x00000000-cc-rp-mo-ba5",
+            "text": "The Polish restaurant Zakopane in London had a less than ideal location, with lots of rubbish surrounding the establishment. This detracted from the overall ambiance of the place. The customer service was also lacking, with one staff member in particular making me feel unwelcome during my visit.\n\nOn a more positive note, the food was a highlight of the experience. The soups were delicious and the portions were generous. The mains were decent, and I particularly enjoyed the lovely local fruit drink that was offered.\n\nOne area that definitely needs improvement is the cleanliness of the toilets. A nice clean would go a long way in enhancing the overall experience for patrons. Despite some drawbacks, the tasty food made the visit somewhat worthwhile.",
+            "rating": 3,
+            "publishTime": "2024-07-21T14:17:19Z",
+            "relativePublishTimeDescription": "a month ago"
+          },
+          {
+            "authorName": "Claudio Weeraratne",
+            "authorPhoto": "https://lh3.googleusercontent.com/a-/ALV-UjXcuPFv_8f0d5h7kej9W4FAV4FUSBajTd05vBVnYmv4AA1X9MJM=s128-c0x00000000-cc-rp-mo-ba4",
+            "text": "Well, the food is so good...!\nSpinach pierogi are great, also the grilled cheese starter and the fried pork chop with bacon, cheese and cabbage.\nAlso the cottage cheese pancakes dessert, really special!\n\nAtmosphere and service is just alright, but the food, the quantities and the value is great!\n\nIt truly feels like being in Poland on the mountains :)",
+            "rating": 5,
+            "publishTime": "2023-03-10T23:19:37Z",
+            "relativePublishTimeDescription": "a year ago"
+          },
+          {
+            "authorName": "maha bousrih",
+            "authorPhoto": "https://lh3.googleusercontent.com/a-/ALV-UjVeRDPyNfRYYPBUEZSo2D3EnBtW7V19tbd0Egpl86_rpz0qVgU=s128-c0x00000000-cc-rp-mo",
+            "text": "Lovely intimate polish restaurant! The food and atmosphere made me nostalgic for a place and time I do not even know. Some  comments here criticising the service make me smile because it’s authentically polish 😊. Try it you won’t regret it!",
+            "rating": 5,
+            "publishTime": "2023-10-17T13:41:18Z",
+            "relativePublishTimeDescription": "10 months ago"
+          },
+          {
+            "authorName": "Ned Suesat",
+            "authorPhoto": "https://lh3.googleusercontent.com/a-/ALV-UjV1x_i-LTMc7nyobnmcnMZHcB7hZ2Wl8-z0zQa2WNPE5tdOcm02=s128-c0x00000000-cc-rp-mo-ba2",
+            "text": "I first went here years ago, and had a great meal then, years later I came back to visit with some friends. It was just as good, if not better because I ordered more food. Portions big, prices very reasonable, staff great and the icing on the cake was being in the presence of one the strongest men on earth. No seriously, the waiter/owner holds world records, ask them. 10/10 will visit again, hopefully sooner this time.",
+            "rating": 5,
+            "publishTime": "2024-03-21T22:51:12Z",
+            "relativePublishTimeDescription": "5 months ago"
+          },
+          {
+            "authorName": "Wiola Kucharczyk",
+            "authorPhoto": "https://lh3.googleusercontent.com/a-/ALV-UjXSWouYTD1vvqjEQWUl7WUzQJx_JWrmHUQPdUu0xOudZwNrfGgl=s128-c0x00000000-cc-rp-mo-ba5",
+            "text": "This Polish place has a cozy Zakopane mountain vibe going on. The crispy potato pancakes with beef goulash? Absolutely delicious. Service is alright, but they could be a bit more on the ball. Overall, a solid spot for a tasty meal with a laid-back feel.",
+            "rating": 4,
+            "publishTime": "2023-12-19T13:13:46Z",
+            "relativePublishTimeDescription": "8 months ago"
+          }
+        ]
+      },
+      {
+        "id": "ChIJ3andJvUNdkgR3JSXb8JObxQ",
+        "placeName": "Polka Kitchen",
+        "address": "Unit 25 Dickens Yard, Longfield Ave, London W5 2TD, UK",
+        "location": {
+          "latitude": 51.513599299999996,
+          "longitude": -0.3068796
+        },
+        "phoneNumber": "+44 20 8567 7707",
+        "website": "http://www.polka-kitchen.co.uk/",
+        "gMapsUri": "https://maps.google.com/?cid=1472482200176268508",
+        "rating": 4.5,
+        "userRatingCount": 1531,
+        "photos": [
+          {
+            "name": "places/ChIJ3andJvUNdkgR3JSXb8JObxQ/photos/AXCi2Q7KAbRDOBZ24Gk69qixKxKdWLmEbPd6acm7GkzckiuYXjskYh1hUMWZ9ZSwDLXtuZ9fvrrsO85i3GPColjwO950aTk5j4vTcM84uSaXVlgZeLyo-rFNgEroEbj_D7jvAxmuZaQ03gsCXRaO7XrA8N0rYbIVO8sZRxLj",
+            "heightPx": 1069,
+            "widthPx": 1425
+          },
+          {
+            "name": "places/ChIJ3andJvUNdkgR3JSXb8JObxQ/photos/AXCi2Q5TTr_O2TxndQHBVOF3_iteVwKlbSxyHC7Fxy_xiMj_r_7tBpfHW_bOtpZC6Ulix1-m6Xdwi7mHIuPmeyjIGvL6IKzZNJnDv4Y9zURzQoFNKTUXWmhwNvomv7LNs9lnOoBFgew2oNykex8QuXcKp5FurtDNnnKrdti8",
+            "heightPx": 2862,
+            "widthPx": 2862
+          },
+          {
+            "name": "places/ChIJ3andJvUNdkgR3JSXb8JObxQ/photos/AXCi2Q5dKK3-yML0Nztc8h3ky9CqqPh1jZzrBZWrjryh6QqOPFWtL9V6QBXBnYk0qKsshCr-IhZC2x2bR157_9nWnsrF4TBfPrDsmDfH5lKSV_s52IL2ttE01azGV81sGLvLUbfg86WcChnHsihDvgr7FePOP-OKDRFYo9Cr",
+            "heightPx": 3000,
+            "widthPx": 4000
+          },
+          {
+            "name": "places/ChIJ3andJvUNdkgR3JSXb8JObxQ/photos/AXCi2Q6rIrrkBpI9Wx1jmNG1FJAYeQ89kJjoUNj9RXVEcYQkz5Rq8kr-sKx4MyQnx4SXxRoL-Z-xDcwBwLc3pQkSd-_7mTriClCzNwrwNwqKtksIVhj9LjORP_LteSwlu7x1YSL_yUp5xFPkExfMfP_MAnASnecYAKyYuP26",
+            "heightPx": 3024,
+            "widthPx": 3024
+          },
+          {
+            "name": "places/ChIJ3andJvUNdkgR3JSXb8JObxQ/photos/AXCi2Q5pztzXMcgGY4DA5ErzKLFWtsJFyGvX8IKOcgBBih1S-M7TZbcEvOuA3t1L4MtWxfY-_WaeziqpkY_IFL7Ct57sGeQq7h36As5g8lDDJ9gwVqYOBlRipuG1EA_OVPZeS1tb6RnNOiZ6ACx2EAp0Vzn__bOHfDXeDuBV",
+            "heightPx": 1369,
+            "widthPx": 1682
+          }
+        ],
+        "reviews": [
+          {
+            "authorName": "Maggie Jarzemska",
+            "authorPhoto": "https://lh3.googleusercontent.com/a/ACg8ocJImf2MNXW0eqJ9Uu_xKvcW9oZ3-Sm_UZmKCY58PZyywdcN4A=s128-c0x00000000-cc-rp-mo-ba2",
+            "text": "We decided to po down as we were passing by.\nThe interior is really nicely designed. The atmosphere is nice and welcoming. Staffs are very friendly.  We ordered some handmade pralines, raspberry tart and a coffee. Everything was served quickly and tasted beautiful.",
+            "rating": 5,
+            "publishTime": "2024-07-07T10:18:11Z",
+            "relativePublishTimeDescription": "a month ago"
+          },
+          {
+            "authorName": "Flamcrack “flamcrack”",
+            "authorPhoto": "https://lh3.googleusercontent.com/a-/ALV-UjWcBB37RNwzyXZ828nM4VQEwEaslVA6tjy073bTeXtMtcPUeiiK=s128-c0x00000000-cc-rp-mo",
+            "text": "We had an amazing meal today. We reserved a table for 2pm on Sunday 3rd March. When we arrived we were greeted warmly by the host and shown to our table. This set the tone for a lovely, well paced and delicious birthday lunch for my wife’s birthday. Our server was warm and attentive. Food was fresh, well presented and tasted incredible. Then came the sparkled dessert to celebrate the birthday. Overall we had a lovely experience. Thank you.",
+            "rating": 5,
+            "publishTime": "2024-03-03T16:30:42Z",
+            "relativePublishTimeDescription": "5 months ago"
+          },
+          {
+            "authorName": "Anna Maria Sotiraki",
+            "authorPhoto": "https://lh3.googleusercontent.com/a/ACg8ocIuzto4KVikIW18A_8tooHqwA40fVhqQ8U52OB5FHPPVpFrYlI=s128-c0x00000000-cc-rp-mo-ba5",
+            "text": "It was my first time trying polish cuisine! The restaurant had amazing dishes, and the flavours were so harmonic! I had the beef and it has thus amazing sauce with parsley oil and gravy! We would definitely come back!",
+            "rating": 5,
+            "publishTime": "2024-06-02T22:02:26Z",
+            "relativePublishTimeDescription": "2 months ago"
+          },
+          {
+            "authorName": "M N",
+            "authorPhoto": "https://lh3.googleusercontent.com/a/ACg8ocKJAkJOEETRZv9G1PCbQP8IPfdNGtOVAc3EeeUm4SuglNxSWA=s128-c0x00000000-cc-rp-mo-ba5",
+            "text": "The restaurant was full on a Wednesday afternoon. It was the first time trying Polish food in a restaurant and it did not disappoint. The ingredients were fresh and the chef skilfully put it together to still showcase each item. I liked the spinach pierogi’s the best and the beetroot carpaccio surprised me at how such a simple dish could pack such a punch in terms of flavour.",
+            "rating": 5,
+            "publishTime": "2024-04-15T21:55:16Z",
+            "relativePublishTimeDescription": "4 months ago"
+          },
+          {
+            "authorName": "Shanghai Samson",
+            "authorPhoto": "https://lh3.googleusercontent.com/a-/ALV-UjUPGRN8UMeU5LLgkowJjkF0IQYrDthFfQeFBZNIoHHAcNdjrtHT2w=s128-c0x00000000-cc-rp-mo-ba3",
+            "text": "Friendly and attentive service and an upscale interior reminding me of a nice hotel lobby. Authentic Polish flavour according to my Polish friend. I loved the boar pate with jam and the potato and cheese pierogi. Both had great texture and flavour. But the Traditional pork cutlet I struggled with. Pork was a little dry, cabbage was very sour and salty and the potato puree was heavy with ham that was too smoked for me. I think you'll like this if you like strong punchy flavours. Would definitely go again for the pierogi!\n\n4/5 yum yums\nInstagram: @howmanyyumyums",
+            "rating": 4,
+            "publishTime": "2024-05-20T13:36:01Z",
+            "relativePublishTimeDescription": "3 months ago"
+          }
+        ]
+      }
+    ]
+  }
