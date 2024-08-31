@@ -5,5 +5,5 @@
 ### Light Mode
 <img src="mapinsight.png">
 
-## Dark Mode
+### Dark Mode
 <img src="mapinsight-dark.png">
